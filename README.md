@@ -1,4 +1,5 @@
 **Introduction**
+
 This project implements a streamlined real-time Speech Intent Recognition system capable of detecting speech, transcribing audio using Faster-Whisper, and interpreting user intent through a structured hierarchical zero-shot classification model.
 
 To maintain transparency and reproducibility we includes three dedicated documentation files, each providing focused explanations of major components:
@@ -9,10 +10,34 @@ To maintain transparency and reproducibility we includes three dedicated documen
 
 These files are included in the repository under the same names, allowing readers to quickly explore the logic, mathematics, and architecture behind this work.
 
+**What We Can Find in This Repository**
 
+This repository is purposefully structured to give reviewers a complete picture of both the system’s design and the reasoning behind each major component. Inside, readers can find:
+
+✔️ A Complete System Overview
+Covers the full pipeline from audio capture → VAD → transcription → intent detection.
+
+✔️ Modular Architecture Breakdown
+Clearly separated modules for audio processing, transcription, utilities, and intent reasoning.
+
+✔️ Detailed Technical Methods
+Including VAD detection, gain control, noise suppression, Whisper decoding, and zero-shot classification logic.
+
+✔️ Step-by-Step Workflow Description
+A transparent execution flow showing how audio is detected, buffered, processed, and converted into high-level intent.
+
+✔️ Model Design Insights
+Why Faster-Whisper was selected, why a hierarchical intent structure was used, and how zero-shot NLI benefits scalability.
+
+✔️ Rationale Behind Design Choices
+Focus on reliability, low-latency decisions, interpretability, modularity, and suitability for real-time applications.
+
+✔️ Package & Environment Requirements
+Complete package installation instructions and model directory expectations for full reproducibility.
 
 
 **Contribution & Novelty Summary**
+
 This system introduces a cohesive and transparent approach to speech understanding by integrating multiple complex tasks into a unified, efficient pipeline. Its novelty lies in:
 
 Hierarchical Zero-Shot Intent Classification
