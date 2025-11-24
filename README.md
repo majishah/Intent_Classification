@@ -97,6 +97,72 @@ The model semantically compares text to labels and chooses the closest match.
 
 A deeper explanation is available in: Hierarchical_Intent_Classification.md
 
+
+
+**Architecture Overview**
+
+Your system is split into five purposeful modules: 
+WorkFlow_Explanation
+
+**1. config.py**
+
+Holds all configuration:
+    Model paths
+    Audio settings
+    VAD thresholds
+    Hierarchical intent labels
+    Logging formats
+
+This file defines the "personality" of the entire system and determines how the pipeline behaves in real time.
+
+**2. utils.py**
+
+Provides helper functions:
+    Logging setup
+    Structured printing of intent results
+    Clean display of predicted labels, scores, and ranking
+
+This makes debugging and understanding predictions significantly easier.
+
+**3. speech_recognizer.py**
+
+The most complex module, responsible for:
+    Initializing microphone stream (PyAudio)
+    Applying gain + noise suppression
+    Running VAD to isolate speech
+    Buffering and segmenting audio
+    Converting audio segments into WAV
+    Triggering a beep sound during detection
+    Transcribing segments through Faster-Whisper
+
+This module is built with threading, locks, and asynchronous utilities to ensure real-time responsiveness.
+
+**4. intent_classifier.py**
+
+Runs the zero-shot transformer pipeline to classify user intent.
+Handles all three hierarchical levels:
+    Level 1 → Level 2 → Level 3
+    Broad → Specific → Most Specific
+
+Each level narrows down the next set of possible labels, boosting accuracy and interpretability.
+
+**5. main.py**
+
+The orchestrator.
+It:
+    Boots system
+    Runs calibration
+    Starts listener
+    Continuously processes buffered audio
+    Transcribes text
+    Performs hierarchical intent classification
+    Logs and prints all results
+    Handles commands (pause / resume / stop)
+
+This is the “glue” that binds the entire pipeline into a functional real-time application.
+
+
+
 **Contribution & Novelty Summary**
 
 This system introduces a cohesive and transparent approach to speech understanding by integrating multiple complex tasks into a unified, efficient pipeline. Its novelty lies in:
