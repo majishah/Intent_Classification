@@ -10,6 +10,7 @@ To maintain transparency and reproducibility we includes three dedicated documen
 
 These files are included in the repository under the same names, allowing readers to quickly explore the logic, mathematics, and architecture behind this work.
 
+
 **What We Can Find in This Repository**
 
 This repository is purposefully structured to give reviewers a complete picture of both the system’s design and the reasoning behind each major component. Inside, readers can find:
@@ -35,6 +36,66 @@ Focus on reliability, low-latency decisions, interpretability, modularity, and s
 ✔️ Package & Environment Requirements
 Complete package installation instructions and model directory expectations for full reproducibility.
 
+
+**System Capabilities**
+
+✔️ Real-Time Speech Detection
+
+The system continuously listens to the microphone and uses Silero VAD to identify when real speech begins and ends.
+It enhances audio quality by applying:
+
+Gain control to amplify low-volume speech
+
+Noise suppression to remove background disturbances
+
+Dynamic buffering to isolate clean speech segments
+
+This ensures only meaningful audio is processed, which drastically improves transcription accuracy.
+
+✔️ High-Efficiency Transcription
+
+The project uses Faster-Whisper, a lightweight and CPU-friendly implementation of Whisper, to convert speech into text with high accuracy.
+
+The transcription pipeline also provides average log-probability, a crucial confidence metric:
+
+Values are always negative because log(probability) of numbers between 0 and 1 produces negative values.
+
+Values closer to zero indicate higher confidence.
+
+Summing log-probabilities prevents numerical underflow and gives stable confidence estimation.
+
+A complete explanation is available in: Average_Log_Probabilty_Calculation.md
+
+✔️ Hierarchical Intent Classification
+
+After transcription, the system interprets the meaning behind the spoken text using a three-level intent classification hierarchy:
+
+Level 1 – Broad Category
+
+Conversation-Oriented, Task-Oriented, Entertainment
+
+Level 2 – Subcategory
+
+Refines the meaning based on the Level 1 decision.
+
+Level 3 – Fine-Grained Interpretation
+
+Pinpoints the exact intent (e.g., Greeting vs. Small-Talk, Music vs. Movies).
+
+**Why Hierarchy?**
+
+Increases accuracy by narrowing options step-by-step
+
+Prevents misclassification across unrelated categories
+
+Makes the system more interpretable
+
+Allows effortless expansion as new intents are added
+
+Intent classification relies on a zero-shot NLI model, meaning no training data is required.
+The model semantically compares text to labels and chooses the closest match.
+
+A deeper explanation is available in: Hierarchical_Intent_Classification.md
 
 **Contribution & Novelty Summary**
 
