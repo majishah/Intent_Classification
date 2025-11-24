@@ -161,7 +161,42 @@ It:
 
 This is the “glue” that binds the entire pipeline into a functional real-time application.
 
+**How the Workflow Operates (Step-By-Step)**
+1. Start System
 
+main.py initializes logging, loads speech and intent models, and calibrates the transcription system using sample audio.
+
+2. Listen for Microphone Input
+
+PyAudio captures real-time audio stream → processed chunk-by-chunk.
+
+3. Detect Speech with VAD
+
+Silero VAD identifies speech timestamps.
+Speech chunks are queued for processing.
+
+4. Transcribe Audio
+
+Faster-Whisper converts audio to text.
+Each segment receives confidence scores using average log probability (negative values approaching zero indicate higher certainty). 
+
+Average_Log_Probabilty_Calculat…
+
+5. Intent Classification
+
+Zero-shot model processes text through three layers:
+
+Level 1 – broad intent
+
+Level 2 – narrowed cluster
+
+Level 3 – final specific meaning
+
+Scores and ranked alternatives are also displayed.
+
+6. Output & Logging
+
+Each transcription and intent result is logged, timestamped, and printed in an easy-to-review format.
 
 **Required Packages**
 
