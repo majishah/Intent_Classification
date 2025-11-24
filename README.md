@@ -163,6 +163,29 @@ This is the “glue” that binds the entire pipeline into a functional real-tim
 
 
 
+**Required Packages**
+
+Install all dependencies:
+    pip install numpy torch torchaudio faster-whisper pyaudio pygame transformers
+
+
+Your project uses:
+
+PyAudio – microphone interface
+
+Faster-Whisper – transcription
+
+Silero VAD – speech activity detection
+
+Transformers – intent classification
+
+Pygame – beep sound feedback
+
+NumPy – buffer and array operations
+
+Model files must be placed in proper directories as noted in the documentation.
+
+
 **Contribution & Novelty Summary**
 
 This system introduces a cohesive and transparent approach to speech understanding by integrating multiple complex tasks into a unified, efficient pipeline. Its novelty lies in:
