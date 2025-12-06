@@ -1,0 +1,2266 @@
+{"sentence": "event reminder mona tuesday", "intent": "calendar_set"}
+{"sentence": "put meeting with pawel for tomorrow ten am", "intent": "calendar_set"}
+{"sentence": "what is the exchange rate of us dollar to pound sterling", "intent": "news_query"}
+{"sentence": "which film the music comes from what is the name of the music", "intent": "music_query"}
+{"sentence": "turn up the brightness", "intent": "iot_hue_lightup"}
+{"sentence": "can you give me the movie schedule", "intent": "calendar_query"}
+{"sentence": "please send a mail to my friend divya how are you", "intent": "email_sendemail"}
+{"sentence": "take out the milk from the shopping list", "intent": "lists_remove"}
+{"sentence": "please scan my social media and tell me what's happening", "intent": "social_query"}
+{"sentence": "i want to know more about this event", "intent": "calendar_query"}
+{"sentence": "new tweet to consumer service", "intent": "social_post"}
+{"sentence": "clear my calendar all events", "intent": "calendar_remove"}
+{"sentence": "do i have any appointments", "intent": "calendar_query"}
+{"sentence": "make new schedule for tomorrow meeting", "intent": "calendar_set"}
+{"sentence": "is there snow in the forecast", "intent": "weather_query"}
+{"sentence": "i would like to hear some rap music", "intent": "play_music"}
+{"sentence": "send email to jessica", "intent": "email_sendemail"}
+{"sentence": "schedule a meeting with the accounting department on two thirty pm on friday", "intent": "calendar_set"}
+{"sentence": "just let me know the important meetings with my boss over the week", "intent": "calendar_set"}
+{"sentence": "say the list", "intent": "lists_query"}
+{"sentence": "can many seashells did sally sell by the seashore", "intent": "qa_factoid"}
+{"sentence": "turn off bedroom light at nine thirty pm", "intent": "iot_hue_lightoff"}
+{"sentence": "find me info on cars", "intent": "news_query"}
+{"sentence": "launch super mario", "intent": "play_game"}
+{"sentence": "review all alarms", "intent": "alarm_query"}
+{"sentence": "please alert me", "intent": "calendar_set"}
+{"sentence": "i am unavailable from four to six in the evening tomorrow mark my calendar", "intent": "calendar_set"}
+{"sentence": "what are the coordinates of the equator", "intent": "qa_factoid"}
+{"sentence": "light colour for study room", "intent": "iot_hue_lightup"}
+{"sentence": "could you please confirm if leonardo is married", "intent": "qa_factoid"}
+{"sentence": "turn off the porch light", "intent": "iot_hue_lightoff"}
+{"sentence": "can you send an email to", "intent": "email_sendemail"}
+{"sentence": "is jessica's birthday on april twelfth", "intent": "calendar_query"}
+{"sentence": "set a reminder for two days prior of the event", "intent": "calendar_set"}
+{"sentence": "tell me something to remind this week", "intent": "calendar_set"}
+{"sentence": "post to facebook i'm hungry", "intent": "social_post"}
+{"sentence": "i love this music can you please save this to my dance playlist and remember that i like it", "intent": "music_likeness"}
+{"sentence": "shut the lights off", "intent": "iot_hue_lightoff"}
+{"sentence": "hey what will the weather be like to today in los angeles california", "intent": "weather_query"}
+{"sentence": "i have my clothes list", "intent": "lists_query"}
+{"sentence": "remind me to send email to boss after one hour", "intent": "calendar_set"}
+{"sentence": "quick reply to jack so please send a mail", "intent": "email_sendemail"}
+{"sentence": "clear haircut today", "intent": "calendar_remove"}
+{"sentence": "am i free at four pm", "intent": "calendar_query"}
+{"sentence": "anything new on insta", "intent": "social_query"}
+{"sentence": "what is the definition of subjegant", "intent": "qa_definition"}
+{"sentence": "remind me two days before my wife birthday", "intent": "calendar_set"}
+{"sentence": "send an email to juanpedro@gmail dot com", "intent": "email_sendemail"}
+{"sentence": "light up the lights in the kitchen", "intent": "iot_hue_lighton"}
+{"sentence": "what items are on my shopping list", "intent": "lists_query"}
+{"sentence": "wake me up", "intent": "alarm_set"}
+{"sentence": "search the locality", "intent": "qa_factoid"}
+{"sentence": "did i get new emails from sarah", "intent": "email_query"}
+{"sentence": "can you book an uber for me", "intent": "transport_taxi"}
+{"sentence": "what is the population of russia", "intent": "qa_factoid"}
+{"sentence": "help complaint to consumer service", "intent": "social_post"}
+{"sentence": "where was president madison born", "intent": "qa_factoid"}
+{"sentence": "is it raining tonight", "intent": "weather_query"}
+{"sentence": "give me the weather forecast for this week", "intent": "weather_query"}
+{"sentence": "remind me of how many lists i have", "intent": "lists_query"}
+{"sentence": "add business contacts to contact list", "intent": "lists_createoradd"}
+{"sentence": "please open chess game i would like to play with you", "intent": "play_game"}
+{"sentence": "bring me the title of current music", "intent": "music_query"}
+{"sentence": "what is robin williams birthday", "intent": "qa_factoid"}
+{"sentence": "listen to radio", "intent": "play_radio"}
+{"sentence": "remind me to take out the garbage at six pm", "intent": "calendar_set"}
+{"sentence": "let's tweet a complaint", "intent": "social_post"}
+{"sentence": "what new emails do i have", "intent": "email_query"}
+{"sentence": "play something from keane's hopes and fears album", "intent": "play_music"}
+{"sentence": "get me the popular news from bbc", "intent": "news_query"}
+{"sentence": "i need to get a ticket via train to orlando from hollywood", "intent": "transport_ticket"}
+{"sentence": "tell me my schedule for later this afternoon", "intent": "calendar_query"}
+{"sentence": "start playlist", "intent": "play_music"}
+{"sentence": "book my train ticket from las vegas to los angeles", "intent": "transport_ticket"}
+{"sentence": "ask for the weather today evening", "intent": "weather_query"}
+{"sentence": "what's the funniest joke you know", "intent": "general_joke"}
+{"sentence": "turn on favorite songs", "intent": "play_music"}
+{"sentence": "do i have any new email", "intent": "email_query"}
+{"sentence": "what is a hypothesis", "intent": "qa_definition"}
+{"sentence": "is it going to rain on monday", "intent": "weather_query"}
+{"sentence": "set notification from world news", "intent": "news_query"}
+{"sentence": "play me an upbeat song through your speakers", "intent": "play_music"}
+{"sentence": "start the vacuum cleaner", "intent": "iot_cleaning"}
+{"sentence": "i need to change my house lights colour to blue", "intent": "iot_hue_lightchange"}
+{"sentence": "play me a song by van halen", "intent": "play_music"}
+{"sentence": "prepare coffee now", "intent": "iot_coffee"}
+{"sentence": "find me a train ticket to boston", "intent": "transport_ticket"}
+{"sentence": "please find all name start with alphabetic of a and create a list", "intent": "lists_createoradd"}
+{"sentence": "did the price of walmart stock go up or down", "intent": "qa_stock"}
+{"sentence": "save my opinion on adele's song", "intent": "music_likeness"}
+{"sentence": "please add practice on feb four at king's park at two pm", "intent": "calendar_set"}
+{"sentence": "send an email to my brother and say wedding anniversary", "intent": "email_sendemail"}
+{"sentence": "is this program is scheduled", "intent": "calendar_query"}
+{"sentence": "confirm a travel ticket to german", "intent": "transport_ticket"}
+{"sentence": "road traffic", "intent": "transport_traffic"}
+{"sentence": "turn the lights off", "intent": "iot_hue_lightoff"}
+{"sentence": "what reminders did i set", "intent": "calendar_query"}
+{"sentence": "how is the weather like today", "intent": "weather_query"}
+{"sentence": "add tomorrows dinner date to the calendar", "intent": "calendar_set"}
+{"sentence": "delete item", "intent": "lists_remove"}
+{"sentence": "is my schedule for july seventh completely open", "intent": "calendar_query"}
+{"sentence": "add detergent to the list of things i need to buy", "intent": "lists_createoradd"}
+{"sentence": "ensure i have to get up at six in morning", "intent": "alarm_set"}
+{"sentence": "what do i have to do this week", "intent": "calendar_query"}
+{"sentence": "get me up in half an hour", "intent": "alarm_set"}
+{"sentence": "that last email needs to be answer asap", "intent": "email_sendemail"}
+{"sentence": "reserve the closest uber", "intent": "transport_taxi"}
+{"sentence": "please tell me news related to the stock market", "intent": "qa_stock"}
+{"sentence": "i want to hear the last news from cnn", "intent": "news_query"}
+{"sentence": "olly clear the list", "intent": "lists_remove"}
+{"sentence": "could you reschedule my meeting", "intent": "calendar_query"}
+{"sentence": "what is the first metro to dc", "intent": "transport_query"}
+{"sentence": "display list of recent emails", "intent": "email_query"}
+{"sentence": "get me a uber", "intent": "transport_taxi"}
+{"sentence": "give me the description of a smartphone circuit", "intent": "qa_definition"}
+{"sentence": "set an alarm for six thirty am", "intent": "alarm_set"}
+{"sentence": "when is my brunch with jennifer", "intent": "calendar_query"}
+{"sentence": "add conference call at four pm to my reminders for today", "intent": "calendar_set"}
+{"sentence": "will it be a sticky night", "intent": "weather_query"}
+{"sentence": "has amy sent me any new emails", "intent": "email_query"}
+{"sentence": "olly set alarm for reminder", "intent": "alarm_set"}
+{"sentence": "set a reminder for the thirteenth that i have a lunch with dale", "intent": "calendar_set"}
+{"sentence": "start playlist and play music", "intent": "play_music"}
+{"sentence": "tell me if i have any new messages in my inbox", "intent": "email_query"}
+{"sentence": "play atmosphere next", "intent": "play_music"}
+{"sentence": "please retweet this post on twitter", "intent": "social_post"}
+{"sentence": "what is the minimum temperature of london", "intent": "weather_query"}
+{"sentence": "olly does shibaru sushi deliver", "intent": "takeaway_query"}
+{"sentence": "i want to know everything that breaks about the dam breaking in california", "intent": "news_query"}
+{"sentence": "show me news about the environment", "intent": "news_query"}
+{"sentence": "and the darkness has fallen", "intent": "iot_hue_lighton"}
+{"sentence": "how is i. b. m. doing", "intent": "qa_stock"}
+{"sentence": "describe what a sphere is", "intent": "qa_definition"}
+{"sentence": "who won the presidential election this year", "intent": "qa_factoid"}
+{"sentence": "turn on vacuum cleaner", "intent": "iot_cleaning"}
+{"sentence": "add this to the list", "intent": "lists_createoradd"}
+{"sentence": "how is traffic in city", "intent": "transport_traffic"}
+{"sentence": "please play me songs from the eighties", "intent": "play_music"}
+{"sentence": "set an alarm at six am", "intent": "alarm_set"}
+{"sentence": "email my appointments to reschedule", "intent": "email_sendemail"}
+{"sentence": "olly put dark colours instead of light ones in the house", "intent": "iot_hue_lightchange"}
+{"sentence": "set the living room lights to fifty percent", "intent": "iot_hue_lightchange"}
+{"sentence": "remind me about my anniversary in one day advance", "intent": "calendar_set"}
+{"sentence": "i occasionally pay attention", "intent": "weather_query"}
+{"sentence": "delete my meeting for two o'clock pm today", "intent": "calendar_remove"}
+{"sentence": "play some christian music", "intent": "play_music"}
+{"sentence": "what kind of weather should i expect this week", "intent": "weather_query"}
+{"sentence": "set a reminder about tomorrow's meeting at nine am", "intent": "calendar_set"}
+{"sentence": "tune to classic hits", "intent": "play_radio"}
+{"sentence": "olly turn the lights off in the bedroom", "intent": "iot_hue_lightoff"}
+{"sentence": "open stock price for name", "intent": "qa_stock"}
+{"sentence": "temperature outside", "intent": "weather_query"}
+{"sentence": "tell me about the new foreign policy of trump", "intent": "news_query"}
+{"sentence": "define elaborate", "intent": "qa_definition"}
+{"sentence": "tag this song with five stars", "intent": "music_likeness"}
+{"sentence": "make my usual", "intent": "iot_coffee"}
+{"sentence": "turn my lights down to a lower level of brightness", "intent": "iot_hue_lightdim"}
+{"sentence": "crack a joke", "intent": "general_joke"}
+{"sentence": "remind me that i like that song", "intent": "music_likeness"}
+{"sentence": "make an alarm for the meeting with bob at seven today", "intent": "alarm_set"}
+{"sentence": "twitter to destination xl that they run out of sizes too fast", "intent": "social_post"}
+{"sentence": "is the last order is ready", "intent": "takeaway_query"}
+{"sentence": "can i know what i have to do the next saturday at six pm", "intent": "calendar_set"}
+{"sentence": "here's the truth about meals on wheels in someone's budget", "intent": "news_query"}
+{"sentence": "do you have the train times for beaumont tx", "intent": "transport_query"}
+{"sentence": "add selected song", "intent": "play_music"}
+{"sentence": "divide two hundred by four", "intent": "qa_maths"}
+{"sentence": "what year did this song come out", "intent": "music_query"}
+{"sentence": "show all emails sent to me from my boss", "intent": "email_query"}
+{"sentence": "do i have a sales meeting today", "intent": "calendar_query"}
+{"sentence": "what does oscillate mean", "intent": "qa_definition"}
+{"sentence": "what's happening around the world", "intent": "news_query"}
+{"sentence": "will it be rainy day tomorrow", "intent": "weather_query"}
+{"sentence": "i want to reply to bob smith's email", "intent": "email_sendemail"}
+{"sentence": "turn on the vacuum cleaner", "intent": "iot_cleaning"}
+{"sentence": "tell me the weather this week", "intent": "weather_query"}
+{"sentence": "send a giggle my way", "intent": "general_joke"}
+{"sentence": "will i need to shovel my driveway this morning", "intent": "weather_query"}
+{"sentence": "let's suck out the dust", "intent": "iot_cleaning"}
+{"sentence": "lower the lights please", "intent": "iot_hue_lightdim"}
+{"sentence": "how many legs does a dog have", "intent": "qa_factoid"}
+{"sentence": "how far is california from georgia", "intent": "qa_factoid"}
+{"sentence": "do i have emails from this sender", "intent": "email_query"}
+{"sentence": "what is the quickest way to my work downtown without hitting any traffic", "intent": "transport_query"}
+{"sentence": "i need next week's lunch put on the calendar", "intent": "calendar_set"}
+{"sentence": "rock", "intent": "play_music"}
+{"sentence": "please turn lights off", "intent": "iot_hue_lightoff"}
+{"sentence": "what's sensational in time of india", "intent": "news_query"}
+{"sentence": "turn off the bathroom light please", "intent": "iot_hue_lightoff"}
+{"sentence": "what would you call this kind of music that we're listening to", "intent": "music_query"}
+{"sentence": "what are the definitions of orange", "intent": "qa_definition"}
+{"sentence": "what does the traffic look like on my usual route to work", "intent": "transport_traffic"}
+{"sentence": "play station gx in the radio", "intent": "play_radio"}
+{"sentence": "play music playlist", "intent": "play_music"}
+{"sentence": "i want to hear limelight by rush", "intent": "play_music"}
+{"sentence": "please make me coffee without sweetener", "intent": "iot_coffee"}
+{"sentence": "please select the first song in my itunes library", "intent": "play_music"}
+{"sentence": "show latest email", "intent": "email_query"}
+{"sentence": "nice lyrics", "intent": "music_likeness"}
+{"sentence": "tell me some business news", "intent": "news_query"}
+{"sentence": "keep me informed about bitcoin price", "intent": "news_query"}
+{"sentence": "at what time is the italian cafe closed between lunch and dinner", "intent": "calendar_query"}
+{"sentence": "is the thanks giving event on fourteenth of this month true", "intent": "calendar_query"}
+{"sentence": "post my business on twitter", "intent": "social_post"}
+{"sentence": "what alarms did i set today", "intent": "alarm_query"}
+{"sentence": "answer for three times four", "intent": "qa_maths"}
+{"sentence": "erase all", "intent": "lists_remove"}
+{"sentence": "give me to do list", "intent": "calendar_query"}
+{"sentence": "consequences to actions", "intent": "qa_definition"}
+{"sentence": "what's the latest news on cnn", "intent": "news_query"}
+{"sentence": "i want to eat some spicy thing", "intent": "takeaway_order"}
+{"sentence": "show all emails regarding the breach", "intent": "email_query"}
+{"sentence": "get me match highlights", "intent": "news_query"}
+{"sentence": "i need a cup of coffee", "intent": "iot_coffee"}
+{"sentence": "do not wake me up tomorrow", "intent": "alarm_remove"}
+{"sentence": "please open and play chess with me", "intent": "play_game"}
+{"sentence": "play fm", "intent": "play_radio"}
+{"sentence": "call yellow cab", "intent": "transport_taxi"}
+{"sentence": "will you mark that i am busy for an event tomorrow at two pm", "intent": "calendar_set"}
+{"sentence": "how much mehta willing to invest in my company in meeting which held today at five hundred and twenty pm", "intent": "calendar_query"}
+{"sentence": "wake me up in thirty minutes", "intent": "alarm_set"}
+{"sentence": "check outlook", "intent": "email_query"}
+{"sentence": "i want to hear the bob cesca show", "intent": "play_radio"}
+{"sentence": "please check for new emails", "intent": "email_query"}
+{"sentence": "please check all new email of income tax department", "intent": "email_query"}
+{"sentence": "what is arnold schwarzenegger's birthday", "intent": "qa_factoid"}
+{"sentence": "play track one from my david bowie playlist", "intent": "play_music"}
+{"sentence": "read me my list for shopping", "intent": "lists_query"}
+{"sentence": "turn off the shed light", "intent": "iot_hue_lightoff"}
+{"sentence": "add to calendar and repeat", "intent": "calendar_set"}
+{"sentence": "where on earth has the most volcanos", "intent": "qa_factoid"}
+{"sentence": "can you make the room brighter", "intent": "iot_hue_lightup"}
+{"sentence": "put on some led zeppelin", "intent": "play_music"}
+{"sentence": "cancel dinner tonight", "intent": "calendar_remove"}
+{"sentence": "divide seventy six in two parts", "intent": "qa_maths"}
+{"sentence": "add event to calendar app", "intent": "calendar_set"}
+{"sentence": "does pink have a new baby", "intent": "qa_factoid"}
+{"sentence": "how safe is the city regarding law and order", "intent": "weather_query"}
+{"sentence": "start reply", "intent": "email_sendemail"}
+{"sentence": "please give me todays forecast for new york city", "intent": "weather_query"}
+{"sentence": "set alarm at six thirty am", "intent": "alarm_set"}
+{"sentence": "tweet mcdonald's down reseda has terrible service", "intent": "social_post"}
+{"sentence": "alexa please turn down the lights in the house", "intent": "iot_hue_lightdim"}
+{"sentence": "set alarm for eight am", "intent": "alarm_set"}
+{"sentence": "how long will my lunch meeting be on tuesday", "intent": "calendar_query"}
+{"sentence": "could you please play this programme for me", "intent": "play_radio"}
+{"sentence": "expired products in recent market", "intent": "social_post"}
+{"sentence": "make the lights off", "intent": "iot_hue_lightoff"}
+{"sentence": "set repeating reminder for every sunday", "intent": "calendar_set"}
+{"sentence": "have i received any emails since noon", "intent": "email_query"}
+{"sentence": "remind upcoming meeting with eminem", "intent": "calendar_set"}
+{"sentence": "who was the current prime minister of britain", "intent": "qa_factoid"}
+{"sentence": "can you make me a cup of coffee", "intent": "iot_coffee"}
+{"sentence": "alarm ten am", "intent": "alarm_set"}
+{"sentence": "please reserve the next taxi a nine am", "intent": "transport_taxi"}
+{"sentence": "what's the name of the piece you are playing", "intent": "music_query"}
+{"sentence": "tell me billy crytals address", "intent": "qa_factoid"}
+{"sentence": "i feel like jazz right now how about you", "intent": "play_music"}
+{"sentence": "did i remember to set a reminder alarm for my next doctor's appointment", "intent": "alarm_query"}
+{"sentence": "find today's wapo articles about trump", "intent": "news_query"}
+{"sentence": "lower lights in kitchen", "intent": "iot_hue_lightdim"}
+{"sentence": "remind me that i have a birthday party on the thirtieth", "intent": "calendar_set"}
+{"sentence": "remove from my calendar meeting at nine am", "intent": "calendar_remove"}
+{"sentence": "any lighting news emails", "intent": "email_query"}
+{"sentence": "tell me the info about india's geography", "intent": "qa_factoid"}
+{"sentence": "thirteenth june is a day of election result please set it", "intent": "calendar_set"}
+{"sentence": "find some smooth jazz for me", "intent": "play_music"}
+{"sentence": "set a notification for sports game", "intent": "calendar_set"}
+{"sentence": "hi google play me playlist wacky in my gaana application", "intent": "play_music"}
+{"sentence": "activate the vacuum cleaner and use it", "intent": "iot_cleaning"}
+{"sentence": "bring up papa pear saga", "intent": "play_game"}
+{"sentence": "what is the capital of mexico", "intent": "qa_factoid"}
+{"sentence": "do i have anything scheduled for today", "intent": "calendar_query"}
+{"sentence": "please google location and information of mount rushmore", "intent": "qa_factoid"}
+{"sentence": "just set me reminders about pending bill payments", "intent": "calendar_set"}
+{"sentence": "who is the prime minister of russia", "intent": "qa_factoid"}
+{"sentence": "weekly weather report", "intent": "weather_query"}
+{"sentence": "i like this song", "intent": "music_likeness"}
+{"sentence": "latest news on terrorism", "intent": "news_query"}
+{"sentence": "new york", "intent": "transport_query"}
+{"sentence": "olly where did the first americans settle", "intent": "qa_factoid"}
+{"sentence": "please tune nine hundred and thirty eight fm radio mirchi", "intent": "play_radio"}
+{"sentence": "meaning of", "intent": "qa_definition"}
+{"sentence": "show me my meetings this friday", "intent": "calendar_query"}
+{"sentence": "what's for today", "intent": "calendar_query"}
+{"sentence": "list out my schedule today", "intent": "calendar_query"}
+{"sentence": "remove the list called party time", "intent": "lists_remove"}
+{"sentence": "let me know the list", "intent": "lists_query"}
+{"sentence": "how much is lebron james worth", "intent": "qa_factoid"}
+{"sentence": "let me know when the meeting is gonna happen", "intent": "calendar_set"}
+{"sentence": "tweet complain at comcast", "intent": "social_post"}
+{"sentence": "lead the way to the place", "intent": "transport_query"}
+{"sentence": "what is the definition of the word perpetual", "intent": "qa_definition"}
+{"sentence": "what do you think", "intent": "music_likeness"}
+{"sentence": "remind me to something in sometime", "intent": "calendar_set"}
+{"sentence": "what is the capital of nigeria", "intent": "qa_factoid"}
+{"sentence": "delete the shopping trip i have scheduled march twenty third", "intent": "calendar_remove"}
+{"sentence": "could you turn the light off", "intent": "iot_hue_lightoff"}
+{"sentence": "show weather", "intent": "weather_query"}
+{"sentence": "olly play music from the jazz genre", "intent": "play_music"}
+{"sentence": "nobody knows", "intent": "play_music"}
+{"sentence": "show me latest notifications", "intent": "social_query"}
+{"sentence": "add new email to my contacts macs@gmail dot com", "intent": "email_addcontact"}
+{"sentence": "add the post office to my list of errands for saturday", "intent": "lists_createoradd"}
+{"sentence": "yesterday at noontime in times square what was the protest about", "intent": "news_query"}
+{"sentence": "please describe that object for me", "intent": "qa_definition"}
+{"sentence": "more information on this event", "intent": "calendar_query"}
+{"sentence": "turn off my wifi", "intent": "iot_wemo_off"}
+{"sentence": "please read my new mails", "intent": "email_query"}
+{"sentence": "have any emails come in since four hundred today", "intent": "email_query"}
+{"sentence": "go to contacts and enter a new email address", "intent": "email_sendemail"}
+{"sentence": "play the most popular elton john song", "intent": "play_music"}
+{"sentence": "add tal meeting on twenty first at seven", "intent": "calendar_set"}
+{"sentence": "erase my appointment for march seven", "intent": "calendar_remove"}
+{"sentence": "alexa please send an email to mom", "intent": "email_sendemail"}
+{"sentence": "what is the weather", "intent": "weather_query"}
+{"sentence": "tweet to google costumer service my new nexus phone stop working help please", "intent": "social_post"}
+{"sentence": "add a reminder for april twenty as my bro's birthday", "intent": "calendar_set"}
+{"sentence": "please set the alarm for next friday at six thirty am", "intent": "alarm_set"}
+{"sentence": "check if alarm is set for six am", "intent": "alarm_query"}
+{"sentence": "when was the bolshoi theatre constructed", "intent": "qa_factoid"}
+{"sentence": "i want dimmer lights", "intent": "iot_hue_lightdim"}
+{"sentence": "take me to layfayette st and canal", "intent": "transport_query"}
+{"sentence": "play songs", "intent": "play_music"}
+{"sentence": "turn on the playlist i have dedicated to rock music", "intent": "play_music"}
+{"sentence": "please schedule a meeting with derrick in haysi at noon", "intent": "calendar_set"}
+{"sentence": "check email for received from mom", "intent": "email_query"}
+{"sentence": "are there any forecasts of rain or snow this week", "intent": "weather_query"}
+{"sentence": "do i have new emails", "intent": "email_query"}
+{"sentence": "alert me when registration opens", "intent": "calendar_set"}
+{"sentence": "is this true about this date", "intent": "calendar_query"}
+{"sentence": "please play the latest song from the album abbas", "intent": "play_music"}
+{"sentence": "did angelina jolie leave brad pitt", "intent": "qa_factoid"}
+{"sentence": "please tweet a complaint to comcast for bad customer service", "intent": "social_post"}
+{"sentence": "run coffee maker", "intent": "iot_coffee"}
+{"sentence": "reply to last received email", "intent": "email_sendemail"}
+{"sentence": "please remove the alarm that is set for weekdays at nine", "intent": "alarm_remove"}
+{"sentence": "anything interesting from bob's news", "intent": "news_query"}
+{"sentence": "turn the lights to red color", "intent": "iot_hue_lightchange"}
+{"sentence": "please begin clash of clans", "intent": "play_game"}
+{"sentence": "set the coffee maker to on", "intent": "iot_coffee"}
+{"sentence": "how do i set my coffee machine to make coffee", "intent": "iot_coffee"}
+{"sentence": "do i have any alarms set for six am tomorrow", "intent": "alarm_query"}
+{"sentence": "play netflix on my ps four", "intent": "play_radio"}
+{"sentence": "how do i get to the train station for a ticket", "intent": "transport_query"}
+{"sentence": "can you tell me about wayne gretszky", "intent": "qa_factoid"}
+{"sentence": "how's the weather today", "intent": "weather_query"}
+{"sentence": "do add this on my calendar", "intent": "calendar_set"}
+{"sentence": "add song to running list", "intent": "music_likeness"}
+{"sentence": "let's play hits on the radio", "intent": "play_radio"}
+{"sentence": "remove my next event", "intent": "calendar_remove"}
+{"sentence": "which teams are playing today in the premier league", "intent": "news_query"}
+{"sentence": "do you know math", "intent": "qa_maths"}
+{"sentence": "send an email to mom to tell her wyatt's birthday party is on sunday", "intent": "email_sendemail"}
+{"sentence": "send john smith and email", "intent": "email_sendemail"}
+{"sentence": "book a cab to office for me", "intent": "transport_taxi"}
+{"sentence": "let me know any new emails i've received", "intent": "email_query"}
+{"sentence": "delete alarm", "intent": "alarm_remove"}
+{"sentence": "do i have anything planned", "intent": "calendar_query"}
+{"sentence": "california", "intent": "transport_query"}
+{"sentence": "remove the old music list", "intent": "lists_remove"}
+{"sentence": "erase all events from my calendar", "intent": "calendar_remove"}
+{"sentence": "change the lights to dim", "intent": "iot_hue_lightdim"}
+{"sentence": "if it is from a very familiar place mark it as important", "intent": "email_query"}
+{"sentence": "what happened on the walking dead", "intent": "news_query"}
+{"sentence": "tell me about alarms", "intent": "alarm_query"}
+{"sentence": "what do i have coming up", "intent": "calendar_query"}
+{"sentence": "what are converse shoes", "intent": "qa_definition"}
+{"sentence": "what is leonardo dicaprio's networth", "intent": "qa_factoid"}
+{"sentence": "what new movie is jennifer lawrence working on", "intent": "qa_factoid"}
+{"sentence": "what is the highest building in the world", "intent": "qa_factoid"}
+{"sentence": "list me the stock of apple right now", "intent": "qa_stock"}
+{"sentence": "what is the weather forecast for this week", "intent": "weather_query"}
+{"sentence": "open twitter send message", "intent": "social_post"}
+{"sentence": "should i open the sun roof", "intent": "weather_query"}
+{"sentence": "how old is clint eastwood", "intent": "qa_factoid"}
+{"sentence": "please tweet on dell service for delay services", "intent": "social_post"}
+{"sentence": "delete the alarm i just set", "intent": "alarm_remove"}
+{"sentence": "i feel like having soup for lunch order from wangs kitchen restaurant a chicken manchow soup", "intent": "takeaway_order"}
+{"sentence": "post in twitter my visit to japan", "intent": "social_post"}
+{"sentence": "on monday the twentieth i need to have a conversation with greg about our weekend trip", "intent": "calendar_set"}
+{"sentence": "cancel all my appointments after three pm today and inform me the details", "intent": "calendar_remove"}
+{"sentence": "please remind me about this tomorrow", "intent": "calendar_set"}
+{"sentence": "set lunch every day at twelve thirty", "intent": "calendar_set"}
+{"sentence": "i want coffee everyday", "intent": "iot_coffee"}
+{"sentence": "search nandy", "intent": "email_query"}
+{"sentence": "calculate two multiplied by two", "intent": "qa_maths"}
+{"sentence": "please check for recent emailstudy from this sender", "intent": "email_query"}
+{"sentence": "coordinate all pop song genres", "intent": "play_music"}
+{"sentence": "what is the news today", "intent": "news_query"}
+{"sentence": "get rid of a list", "intent": "lists_remove"}
+{"sentence": "can you put in lee's birthday on the twenty second of june", "intent": "calendar_set"}
+{"sentence": "what song is playing right now", "intent": "music_query"}
+{"sentence": "remember this email", "intent": "email_addcontact"}
+{"sentence": "set a reminder up next month to get my oil changed", "intent": "calendar_set"}
+{"sentence": "what time is my domino's order expected to arrive", "intent": "takeaway_query"}
+{"sentence": "you like the song", "intent": "music_likeness"}
+{"sentence": "what's happening in france today", "intent": "news_query"}
+{"sentence": "when is the event going to start", "intent": "calendar_query"}
+{"sentence": "when is the birth date of taylor lautner", "intent": "qa_factoid"}
+{"sentence": "how is the traffic presently near central park road", "intent": "transport_traffic"}
+{"sentence": "android", "intent": "lists_query"}
+{"sentence": "play all songs on shuffle", "intent": "play_music"}
+{"sentence": "the sun is shinning bright will we have this weather for the rest of the day", "intent": "weather_query"}
+{"sentence": "please check new email from andy", "intent": "email_query"}
+{"sentence": "please book a ticket form jaipur to mumbai on tuesday", "intent": "transport_ticket"}
+{"sentence": "set environmental news notification", "intent": "news_query"}
+{"sentence": "raise the light", "intent": "iot_hue_lightup"}
+{"sentence": "enable my plug", "intent": "iot_wemo_on"}
+{"sentence": "could you please give me up to date news headlines from my newest provider", "intent": "news_query"}
+{"sentence": "how many lists do i have", "intent": "lists_query"}
+{"sentence": "play poker face by lady gaga", "intent": "play_music"}
+{"sentence": "what's going on in the world these days", "intent": "news_query"}
+{"sentence": "cancel the tomorrow's meeting from my calendar", "intent": "calendar_remove"}
+{"sentence": "brighter", "intent": "iot_hue_lightup"}
+{"sentence": "give me a reminder notification on tomorrow's meeting at ten am", "intent": "calendar_set"}
+{"sentence": "what is the latest update on the new york bridge proposal", "intent": "news_query"}
+{"sentence": "do i need a jacket", "intent": "weather_query"}
+{"sentence": "send a reply to the last email", "intent": "email_sendemail"}
+{"sentence": "i need a drink", "intent": "iot_coffee"}
+{"sentence": "what alarms did i set", "intent": "alarm_query"}
+{"sentence": "give me a reminder twenty four hours before my friday meeting with edg", "intent": "calendar_set"}
+{"sentence": "tell me what's happening on instagram", "intent": "social_query"}
+{"sentence": "change the light to pink color", "intent": "iot_hue_lightchange"}
+{"sentence": "i need to know if mr pizza delivers", "intent": "takeaway_query"}
+{"sentence": "play football with me", "intent": "play_game"}
+{"sentence": "write an email for john@gmail dot com", "intent": "email_sendemail"}
+{"sentence": "what time will the soccer match be tonight", "intent": "calendar_query"}
+{"sentence": "which type of music it is", "intent": "music_query"}
+{"sentence": "shall i change my car tyres to snow tyres soon", "intent": "weather_query"}
+{"sentence": "can you tell me the latest news", "intent": "news_query"}
+{"sentence": "could you repeat this event", "intent": "calendar_set"}
+{"sentence": "play my favorite music now", "intent": "play_music"}
+{"sentence": "remove the second row from the list", "intent": "lists_remove"}
+{"sentence": "what's the weather in portland", "intent": "weather_query"}
+{"sentence": "isn't it a lovely song please save this for me", "intent": "music_likeness"}
+{"sentence": "get me up at eight am", "intent": "alarm_set"}
+{"sentence": "respond to the email from john doe", "intent": "email_sendemail"}
+{"sentence": "set a reminder for this", "intent": "calendar_set"}
+{"sentence": "could you please play the fm station which plays pop songs", "intent": "play_radio"}
+{"sentence": "play my soundtrack", "intent": "play_music"}
+{"sentence": "open the radio app", "intent": "play_radio"}
+{"sentence": "were the stocks rising or declining", "intent": "qa_stock"}
+{"sentence": "open songs from major lazer", "intent": "play_music"}
+{"sentence": "get rid of all events with jeff", "intent": "calendar_remove"}
+{"sentence": "describe rock sand", "intent": "qa_definition"}
+{"sentence": "what is the forecast for saturday", "intent": "weather_query"}
+{"sentence": "play a live version of elton john", "intent": "play_music"}
+{"sentence": "when was the us got freedom", "intent": "qa_factoid"}
+{"sentence": "check time of ten thousand eight hundred and eighty seven train from luni station on tuesday", "intent": "transport_query"}
+{"sentence": "here is a new email address to be added to the contacts", "intent": "email_sendemail"}
+{"sentence": "please turn socket off", "intent": "iot_wemo_off"}
+{"sentence": "location", "intent": "qa_definition"}
+{"sentence": "compose a reply to last email", "intent": "email_sendemail"}
+{"sentence": "can you do nine plus two", "intent": "qa_maths"}
+{"sentence": "delete item from my list", "intent": "lists_remove"}
+{"sentence": "how do i book a train ticket online", "intent": "transport_query"}
+{"sentence": "add an alarm for tomorrow morning at six am", "intent": "alarm_set"}
+{"sentence": "list", "intent": "lists_query"}
+{"sentence": "tweet mobile complaint to samsung", "intent": "social_post"}
+{"sentence": "please archive my read messages", "intent": "email_query"}
+{"sentence": "look up the number of people living in miami florida", "intent": "qa_factoid"}
+{"sentence": "turn on the radio and play channel one hundred and six point nine", "intent": "play_radio"}
+{"sentence": "give me my facebook update every three hours", "intent": "social_query"}
+{"sentence": "when is the next train leaving for austin", "intent": "transport_query"}
+{"sentence": "what time does the zach brown concert on june third begin", "intent": "calendar_query"}
+{"sentence": "open spotify and open workout", "intent": "play_radio"}
+{"sentence": "what did vogue post today", "intent": "news_query"}
+{"sentence": "what is the largest active volcano on earth", "intent": "qa_factoid"}
+{"sentence": "when is my next appointment with dr smith", "intent": "calendar_query"}
+{"sentence": "can i carry out with this restaurant", "intent": "takeaway_query"}
+{"sentence": "email mom and ask how the weather is there", "intent": "email_sendemail"}
+{"sentence": "please find the radio station currently playing howard stern", "intent": "play_radio"}
+{"sentence": "remove that item", "intent": "lists_remove"}
+{"sentence": "seven years", "intent": "play_music"}
+{"sentence": "cancel business meeting on wednesday", "intent": "calendar_remove"}
+{"sentence": "book a train ticket for one one way for this tuesday at nine am", "intent": "transport_ticket"}
+{"sentence": "how much is amazon stock", "intent": "qa_stock"}
+{"sentence": "olly there's a good band playing tonight at nine at jazz bar i want to go", "intent": "calendar_set"}
+{"sentence": "what are the breaking news", "intent": "news_query"}
+{"sentence": "delete the next event today", "intent": "calendar_remove"}
+{"sentence": "can you let amazon know that this new phone case is junk", "intent": "social_post"}
+{"sentence": "could you please play the song of michael jackson", "intent": "play_music"}
+{"sentence": "what is a mango", "intent": "qa_definition"}
+{"sentence": "please send the email to jeff", "intent": "email_sendemail"}
+{"sentence": "get rid of the events on the nineteenth from my calendar", "intent": "calendar_remove"}
+{"sentence": "please turn the lights off", "intent": "iot_hue_lightoff"}
+{"sentence": "play only my list", "intent": "play_music"}
+{"sentence": "i want to send a tweet to united airlines i'm angry you lost my bags", "intent": "social_post"}
+{"sentence": "i like this song please save", "intent": "music_likeness"}
+{"sentence": "set notification for news about the dakota pipeline", "intent": "news_query"}
+{"sentence": "send a complaint tweet", "intent": "social_post"}
+{"sentence": "should i wear sandals or shoes with socks", "intent": "weather_query"}
+{"sentence": "remove list item", "intent": "lists_remove"}
+{"sentence": "check emails from john", "intent": "email_query"}
+{"sentence": "open inbox to check unread mails", "intent": "email_query"}
+{"sentence": "how old is j. k. rowling", "intent": "qa_factoid"}
+{"sentence": "what is currently breaking news", "intent": "news_query"}
+{"sentence": "olly i need directions to madison st", "intent": "transport_query"}
+{"sentence": "this is the best band ever", "intent": "music_likeness"}
+{"sentence": "what did i tell susan in my last email", "intent": "email_query"}
+{"sentence": "put on", "intent": "play_radio"}
+{"sentence": "give me the train time", "intent": "transport_query"}
+{"sentence": "remind me every monday to take out the trash", "intent": "calendar_set"}
+{"sentence": "i'm unhappy with this pasta please help me", "intent": "social_post"}
+{"sentence": "need to check my list", "intent": "lists_query"}
+{"sentence": "why isnt adam sandler funny", "intent": "qa_factoid"}
+{"sentence": "play game with me", "intent": "play_game"}
+{"sentence": "can you create a list for me", "intent": "lists_createoradd"}
+{"sentence": "add a wrist watch to the shopping list", "intent": "lists_createoradd"}
+{"sentence": "give me the latest updates", "intent": "news_query"}
+{"sentence": "how is the weather likely to be this week", "intent": "weather_query"}
+{"sentence": "give me the latest political headlines across the world", "intent": "news_query"}
+{"sentence": "the song in background is cool", "intent": "music_likeness"}
+{"sentence": "turn off the dining room", "intent": "iot_hue_lightoff"}
+{"sentence": "delete all events in calendar", "intent": "calendar_remove"}
+{"sentence": "tweet a disgusted face about mcdonalds", "intent": "social_post"}
+{"sentence": "could you order sushi for tonight dinner", "intent": "takeaway_order"}
+{"sentence": "brighten of lights in living room", "intent": "iot_hue_lightup"}
+{"sentence": "can you set my coffee machine to make me coffee at seven am", "intent": "iot_coffee"}
+{"sentence": "tell me when i should leave for a scheduled event so that i am on time", "intent": "calendar_set"}
+{"sentence": "what reminders do i have scheduled before noon tomorrow", "intent": "calendar_query"}
+{"sentence": "has tom emailed me about ammunition", "intent": "email_query"}
+{"sentence": "play cnn radio", "intent": "play_radio"}
+{"sentence": "let me listen the latest news program on radio", "intent": "play_radio"}
+{"sentence": "what's the latest trump controversy", "intent": "news_query"}
+{"sentence": "play my playlist starting from the bottom", "intent": "play_music"}
+{"sentence": "what is today's forecast for berlin", "intent": "weather_query"}
+{"sentence": "display the seven day forecast for this week", "intent": "weather_query"}
+{"sentence": "what is on my to do list today", "intent": "lists_query"}
+{"sentence": "play all by playlist", "intent": "play_music"}
+{"sentence": "change light color", "intent": "iot_hue_lightchange"}
+{"sentence": "describe hell", "intent": "qa_definition"}
+{"sentence": "say a good joke for me right now", "intent": "general_joke"}
+{"sentence": "send me an alert and hour before my next appointment", "intent": "calendar_set"}
+{"sentence": "get me the local train timing to destination cstm", "intent": "transport_query"}
+{"sentence": "will i need an umbrella today", "intent": "weather_query"}
+{"sentence": "set list", "intent": "lists_createoradd"}
+{"sentence": "discontinue use of lights", "intent": "iot_hue_lightoff"}
+{"sentence": "open bad religion folder", "intent": "play_music"}
+{"sentence": "lower the overhead lights", "intent": "iot_hue_lightdim"}
+{"sentence": "book a taxi to go to the movies at one", "intent": "transport_taxi"}
+{"sentence": "i want to order chinese takeout", "intent": "takeaway_order"}
+{"sentence": "what is the traffic like right now", "intent": "transport_traffic"}
+{"sentence": "play", "intent": "play_radio"}
+{"sentence": "i want to order a pizza from michael's pizza", "intent": "takeaway_order"}
+{"sentence": "remind me to go to dinner with dave on friday at five pm", "intent": "calendar_set"}
+{"sentence": "what days do i have booked", "intent": "calendar_query"}
+{"sentence": "turn program on xmtune", "intent": "play_radio"}
+{"sentence": "find geographic details of this place", "intent": "qa_factoid"}
+{"sentence": "has my calendar been updated in the last ten minutes", "intent": "calendar_query"}
+{"sentence": "remove the guest list i created last week", "intent": "lists_remove"}
+{"sentence": "whats on your list right now", "intent": "lists_query"}
+{"sentence": "erase that from my calendar", "intent": "calendar_remove"}
+{"sentence": "i want to play fifa seventeen", "intent": "play_game"}
+{"sentence": "hows mysore climate today", "intent": "weather_query"}
+{"sentence": "post this video to facebook", "intent": "social_post"}
+{"sentence": "add jane's birthday party for tomorrow two pm at one hundred and twenty three main on my calendar", "intent": "calendar_set"}
+{"sentence": "give me all available lists", "intent": "lists_query"}
+{"sentence": "delete it", "intent": "calendar_remove"}
+{"sentence": "is it cold outside", "intent": "weather_query"}
+{"sentence": "please play folk music", "intent": "play_music"}
+{"sentence": "can you delete the dentist appointment", "intent": "calendar_remove"}
+{"sentence": "refresh my inbox and inform me about new emails", "intent": "email_query"}
+{"sentence": "what is the temperature in indianapolis indiana", "intent": "qa_factoid"}
+{"sentence": "delete list for groceries", "intent": "lists_remove"}
+{"sentence": "please read my facebook feed", "intent": "social_query"}
+{"sentence": "is the city cheaper or costlier to live", "intent": "weather_query"}
+{"sentence": "what information should i know for my meetings today", "intent": "calendar_query"}
+{"sentence": "do i have any new emails from kellogg", "intent": "email_query"}
+{"sentence": "i mostly pay attention", "intent": "weather_query"}
+{"sentence": "can you open my itunes", "intent": "play_music"}
+{"sentence": "what jacket should i wear", "intent": "weather_query"}
+{"sentence": "remind me to do something then", "intent": "calendar_set"}
+{"sentence": "song title", "intent": "music_query"}
+{"sentence": "please clean my calendar", "intent": "calendar_remove"}
+{"sentence": "new alarm for six am", "intent": "alarm_set"}
+{"sentence": "turn off the lights in the bathroom", "intent": "iot_hue_lightoff"}
+{"sentence": "is today st patricks day", "intent": "calendar_query"}
+{"sentence": "create a list that is available", "intent": "lists_createoradd"}
+{"sentence": "play sleepyhead by passion pit", "intent": "play_music"}
+{"sentence": "what is on my playlist", "intent": "lists_query"}
+{"sentence": "schedule a one hour appointment for saturday", "intent": "calendar_set"}
+{"sentence": "what's in the news", "intent": "news_query"}
+{"sentence": "is there takeaway at papa john's", "intent": "takeaway_query"}
+{"sentence": "alexa i'dl like to hear any classical except for bach or schubert", "intent": "play_music"}
+{"sentence": "within the past three months how many meetings did i have with mr richards", "intent": "calendar_query"}
+{"sentence": "clear the list", "intent": "lists_remove"}
+{"sentence": "radio channels", "intent": "play_radio"}
+{"sentence": "hey olly i like music by sigur ros", "intent": "music_likeness"}
+{"sentence": "what movies has emma watson acted in", "intent": "qa_factoid"}
+{"sentence": "play lady by kenny roger", "intent": "play_music"}
+{"sentence": "remind me when i am at the library to get a new library card", "intent": "calendar_set"}
+{"sentence": "once a new topic on politics comes up alert me", "intent": "news_query"}
+{"sentence": "how much is the average house", "intent": "qa_factoid"}
+{"sentence": "get rid of my current alarms", "intent": "alarm_remove"}
+{"sentence": "tell me about jaipur", "intent": "qa_factoid"}
+{"sentence": "please book me a taxi uber", "intent": "transport_taxi"}
+{"sentence": "what kind of music do you think i like", "intent": "music_query"}
+{"sentence": "clear out the shopping list", "intent": "lists_remove"}
+{"sentence": "i want to hear a station that plays r. n. b.", "intent": "play_radio"}
+{"sentence": "what information do i have on reminders", "intent": "calendar_query"}
+{"sentence": "should i bring a jacket with me tonight", "intent": "weather_query"}
+{"sentence": "rate five", "intent": "music_likeness"}
+{"sentence": "what is the temperature", "intent": "weather_query"}
+{"sentence": "set alarm of only monday morning six am", "intent": "alarm_set"}
+{"sentence": "what's a good joke", "intent": "general_joke"}
+{"sentence": "reply to dad write i will be late", "intent": "email_sendemail"}
+{"sentence": "order pizza for delivery", "intent": "takeaway_order"}
+{"sentence": "please remove remainder", "intent": "calendar_remove"}
+{"sentence": "birthday wishes", "intent": "social_post"}
+{"sentence": "train ticket please", "intent": "transport_ticket"}
+{"sentence": "olly read my lists to me", "intent": "lists_query"}
+{"sentence": "hayathis daughter baby shower", "intent": "calendar_set"}
+{"sentence": "turn off my alarm", "intent": "alarm_remove"}
+{"sentence": "play giants by banks and steelz", "intent": "play_music"}
+{"sentence": "brighten the lights", "intent": "iot_hue_lightup"}
+{"sentence": "what is the current weather condition in my place", "intent": "weather_query"}
+{"sentence": "play bob dylan playlist", "intent": "play_music"}
+{"sentence": "play rap music", "intent": "play_music"}
+{"sentence": "please find out the share price of microsoft in nasdaq", "intent": "qa_stock"}
+{"sentence": "please play my nineties rap hits", "intent": "play_music"}
+{"sentence": "i need to go to dundee at five am on sunday by train", "intent": "transport_ticket"}
+{"sentence": "i want to send an email to my family do you help me", "intent": "email_sendemail"}
+{"sentence": "read list of new emails", "intent": "email_query"}
+{"sentence": "traffic report", "intent": "transport_traffic"}
+{"sentence": "what are the bbc poll predictions for the upcoming us elections", "intent": "news_query"}
+{"sentence": "turn on the robot vacuum cleaner", "intent": "iot_cleaning"}
+{"sentence": "who sings the song about a long black train", "intent": "music_query"}
+{"sentence": "is it going to rain at one pm today", "intent": "weather_query"}
+{"sentence": "remove my task list", "intent": "lists_remove"}
+{"sentence": "start the coffee machine at three", "intent": "iot_coffee"}
+{"sentence": "please add sugar to my grocery list", "intent": "lists_createoradd"}
+{"sentence": "play ella fitzgerals get happy", "intent": "play_music"}
+{"sentence": "make it brighter in here", "intent": "iot_hue_lightup"}
+{"sentence": "do you have a funny joke for me", "intent": "general_joke"}
+{"sentence": "can you make me some coffee olly", "intent": "iot_coffee"}
+{"sentence": "who sings the song that i am listening to right now", "intent": "music_query"}
+{"sentence": "olly tweet apple that the iphone doesn't work", "intent": "social_post"}
+{"sentence": "check any mail from amazon", "intent": "email_query"}
+{"sentence": "i need an email to be sent to comcastcom about my service issues", "intent": "email_sendemail"}
+{"sentence": "pink is all we need", "intent": "iot_hue_lightchange"}
+{"sentence": "what is the price of starbuck's stock", "intent": "qa_stock"}
+{"sentence": "turn lights off", "intent": "iot_hue_lightoff"}
+{"sentence": "what's on my todo list", "intent": "lists_query"}
+{"sentence": "please turn up the screen brightness all the way", "intent": "iot_hue_lightup"}
+{"sentence": "set the alarm off", "intent": "alarm_remove"}
+{"sentence": "should we expect rain this afternoon", "intent": "weather_query"}
+{"sentence": "what is the difference between roman and grigorean calendar", "intent": "qa_factoid"}
+{"sentence": "i would like to hear jazz music", "intent": "play_music"}
+{"sentence": "whats the weather like right now in new york", "intent": "weather_query"}
+{"sentence": "play one more time", "intent": "play_music"}
+{"sentence": "i need you to tweet a complaint", "intent": "social_post"}
+{"sentence": "how is my order", "intent": "takeaway_query"}
+{"sentence": "tell me the train arrival time to new york", "intent": "transport_query"}
+{"sentence": "i want to set an alarm when i'm driving home tomorrow to remember to stop at the store and get food", "intent": "alarm_set"}
+{"sentence": "play the song major tom by david bowie", "intent": "play_music"}
+{"sentence": "start the radio now", "intent": "play_radio"}
+{"sentence": "can you raise the lights for me please", "intent": "iot_hue_lightup"}
+{"sentence": "what are meeting scheduled for today", "intent": "calendar_query"}
+{"sentence": "play my summer jams playlist", "intent": "play_music"}
+{"sentence": "describe a rotor", "intent": "qa_definition"}
+{"sentence": "check new email", "intent": "email_query"}
+{"sentence": "i need a good cry can you play me sad rock songs", "intent": "play_music"}
+{"sentence": "what are the top stories on cnn", "intent": "news_query"}
+{"sentence": "create email to yulia", "intent": "email_sendemail"}
+{"sentence": "what is denzel washington's next movie", "intent": "qa_factoid"}
+{"sentence": "did you place the reminder about the meeting for tomorrow", "intent": "calendar_query"}
+{"sentence": "can you list out my meetings today", "intent": "calendar_query"}
+{"sentence": "start bbc radio", "intent": "play_radio"}
+{"sentence": "what brand hair spray does donald trump use", "intent": "qa_factoid"}
+{"sentence": "remind me to pick up linda at five in the evening on seventh", "intent": "calendar_set"}
+{"sentence": "hello my item which i bought from some one has gone out of order", "intent": "social_post"}
+{"sentence": "respond to email", "intent": "email_sendemail"}
+{"sentence": "make the light in here redder", "intent": "iot_hue_lightchange"}
+{"sentence": "what time should i go for a hike", "intent": "weather_query"}
+{"sentence": "what was george eliot's first november el", "intent": "qa_factoid"}
+{"sentence": "info on lisa ann please", "intent": "qa_factoid"}
+{"sentence": "do i have any unread emails", "intent": "email_query"}
+{"sentence": "emails in the last ten minutes", "intent": "email_query"}
+{"sentence": "show me some current events", "intent": "news_query"}
+{"sentence": "please check email contain job listing", "intent": "email_query"}
+{"sentence": "hoover the hallway", "intent": "iot_cleaning"}
+{"sentence": "knock knock", "intent": "general_joke"}
+{"sentence": "start the robot roomba", "intent": "iot_cleaning"}
+{"sentence": "wake me up at five am this week", "intent": "alarm_set"}
+{"sentence": "please send mom and dad an email asking how they are", "intent": "email_sendemail"}
+{"sentence": "is it going to rain later", "intent": "weather_query"}
+{"sentence": "shut off lights", "intent": "iot_hue_lightoff"}
+{"sentence": "please dim the lights", "intent": "iot_hue_lightdim"}
+{"sentence": "add this email address to my contacts and send an email to", "intent": "email_addcontact"}
+{"sentence": "set my alarm for seven am", "intent": "alarm_set"}
+{"sentence": "find the ways of travel for the same", "intent": "transport_query"}
+{"sentence": "fix alarm", "intent": "alarm_set"}
+{"sentence": "meetings from twenty to twenty five june", "intent": "calendar_query"}
+{"sentence": "call the nearest thai restaurant with delivery", "intent": "takeaway_order"}
+{"sentence": "purchase ticket to new york city on train", "intent": "transport_ticket"}
+{"sentence": "give me the details on purchase order", "intent": "lists_query"}
+{"sentence": "adjust the lights to a lower setting please", "intent": "iot_hue_lightdim"}
+{"sentence": "play only all music released between the year one thousand nine hundred and ninety and two thousand", "intent": "play_music"}
+{"sentence": "save event for five pm to six pm on march eighteenth", "intent": "calendar_set"}
+{"sentence": "just play nine hundred and thirty seven fm", "intent": "play_radio"}
+{"sentence": "how much is a train ticket to chicago", "intent": "transport_query"}
+{"sentence": "play the latest songs by dalida", "intent": "play_music"}
+{"sentence": "what is the plan today", "intent": "calendar_query"}
+{"sentence": "please scan the am dial on the radio right now", "intent": "play_radio"}
+{"sentence": "book a train ticket weekend of the twenty sixth phoenix to los angeles", "intent": "transport_ticket"}
+{"sentence": "can you tell me what flabbergasted means", "intent": "qa_definition"}
+{"sentence": "do i need a sweater today", "intent": "weather_query"}
+{"sentence": "turn off the alarm", "intent": "alarm_remove"}
+{"sentence": "olly play poker with me", "intent": "play_game"}
+{"sentence": "is traffic light", "intent": "transport_traffic"}
+{"sentence": "what does situation mean", "intent": "qa_definition"}
+{"sentence": "show pending reminders", "intent": "calendar_query"}
+{"sentence": "do i have an appointment today", "intent": "calendar_query"}
+{"sentence": "low cooling condition", "intent": "weather_query"}
+{"sentence": "how cold is it outside today", "intent": "weather_query"}
+{"sentence": "lights at percent", "intent": "iot_hue_lightchange"}
+{"sentence": "will it be nice outside this week", "intent": "weather_query"}
+{"sentence": "give the stock price details of motorolla", "intent": "qa_stock"}
+{"sentence": "open media play jingle bells", "intent": "play_music"}
+{"sentence": "please add dinner with mary to my calendar on saturday", "intent": "calendar_set"}
+{"sentence": "i need to set reminder on fifteenth march", "intent": "calendar_set"}
+{"sentence": "what alarms i have set", "intent": "alarm_query"}
+{"sentence": "add lowes hardware to my contact emails located in cleveland ohio", "intent": "email_addcontact"}
+{"sentence": "order one pizza from pizza hut", "intent": "takeaway_order"}
+{"sentence": "reply to email", "intent": "email_sendemail"}
+{"sentence": "turn the light off in the living room", "intent": "iot_hue_lightoff"}
+{"sentence": "how far is canada from my current location", "intent": "qa_factoid"}
+{"sentence": "send email to joseph@gmail dot com", "intent": "email_sendemail"}
+{"sentence": "where do most celebrities hang out", "intent": "qa_factoid"}
+{"sentence": "have i received new emails in the last ten minutes", "intent": "email_query"}
+{"sentence": "play the radio please", "intent": "play_radio"}
+{"sentence": "please find out of charley's steakhouse delivers", "intent": "takeaway_query"}
+{"sentence": "please put on my favorite rap music playlist", "intent": "play_music"}
+{"sentence": "tell me when it is five pm", "intent": "alarm_set"}
+{"sentence": "has anyone commented on my status", "intent": "social_query"}
+{"sentence": "give me up to date on sports news", "intent": "news_query"}
+{"sentence": "send email to boss saying i will be late", "intent": "email_sendemail"}
+{"sentence": "africa info", "intent": "qa_factoid"}
+{"sentence": "where is the prime meridian", "intent": "qa_factoid"}
+{"sentence": "turn off my first alarm", "intent": "alarm_remove"}
+{"sentence": "remind me to water my plants every tuesday thursday and saturday", "intent": "calendar_set"}
+{"sentence": "what is the current state of the investigation into trump's ties with russia", "intent": "news_query"}
+{"sentence": "how do i get to the mall", "intent": "transport_query"}
+{"sentence": "tell me how are the results of assembly elections in delhi going to come out", "intent": "news_query"}
+{"sentence": "let me know up and down in stock price of this company stock", "intent": "qa_stock"}
+{"sentence": "turn off the lamps", "intent": "iot_hue_lightoff"}
+{"sentence": "please modify my calendar with this event", "intent": "calendar_set"}
+{"sentence": "could you please confirm if paradise does takeaway", "intent": "takeaway_query"}
+{"sentence": "power off", "intent": "iot_wemo_off"}
+{"sentence": "play any pop fm channel", "intent": "play_radio"}
+{"sentence": "book a ticket to ny by train", "intent": "transport_ticket"}
+{"sentence": "tell me if i have new emails", "intent": "email_query"}
+{"sentence": "is there anything i should be reminded about", "intent": "calendar_query"}
+{"sentence": "play some good song from my play list", "intent": "play_music"}
+{"sentence": "play the song sung by katy perry", "intent": "play_music"}
+{"sentence": "set lights brightness higher", "intent": "iot_hue_lightup"}
+{"sentence": "post a new status on facebook saying that i am enjoying the nice weather", "intent": "social_post"}
+{"sentence": "olly do i have an alarm set for tomorrow", "intent": "alarm_query"}
+{"sentence": "i want you to go to hot one hundred and five on the radio", "intent": "play_radio"}
+{"sentence": "weather at the moment", "intent": "weather_query"}
+{"sentence": "play music now please", "intent": "play_music"}
+{"sentence": "shuffle songs by coldplay", "intent": "play_music"}
+{"sentence": "send an alert before meeting", "intent": "calendar_set"}
+{"sentence": "play song aces high", "intent": "play_music"}
+{"sentence": "in my calendar delete all of my golf events for the current month", "intent": "calendar_remove"}
+{"sentence": "should i bring an umbrella today", "intent": "weather_query"}
+{"sentence": "can you please book train tickets for two for this friday", "intent": "transport_ticket"}
+{"sentence": "find a train ticket to philadelphia", "intent": "transport_ticket"}
+{"sentence": "what is the music playing right now", "intent": "music_query"}
+{"sentence": "schedule a meeting with matt at eleven am on thursday", "intent": "calendar_set"}
+{"sentence": "show future events", "intent": "calendar_query"}
+{"sentence": "uber me to the airport", "intent": "transport_taxi"}
+{"sentence": "can you please make a coffee", "intent": "iot_coffee"}
+{"sentence": "start vacuum cleaner", "intent": "iot_cleaning"}
+{"sentence": "is there any rain in the forecast for the next week", "intent": "weather_query"}
+{"sentence": "find route", "intent": "qa_factoid"}
+{"sentence": "driving time to los angeles", "intent": "transport_query"}
+{"sentence": "are there any alarms going off today", "intent": "alarm_query"}
+{"sentence": "how much money did bill gates make", "intent": "qa_factoid"}
+{"sentence": "please activate my coffee pot for me", "intent": "iot_coffee"}
+{"sentence": "send an email to my boss", "intent": "email_sendemail"}
+{"sentence": "open up and play music from my jogging playlist", "intent": "play_music"}
+{"sentence": "do i have appointments today", "intent": "calendar_query"}
+{"sentence": "show me direction to my home", "intent": "transport_query"}
+{"sentence": "get me new email", "intent": "email_query"}
+{"sentence": "please load new email for bruce and send message now", "intent": "email_sendemail"}
+{"sentence": "olly let's hear wgrr one hundred and three point five", "intent": "play_radio"}
+{"sentence": "i want to play the song again", "intent": "play_music"}
+{"sentence": "i want sweet potato pie from a local bakery", "intent": "lists_createoradd"}
+{"sentence": "what is the weather going to be like today in tucson", "intent": "weather_query"}
+{"sentence": "make march eighteen a repeating appointment for pearl's birthday", "intent": "calendar_set"}
+{"sentence": "set an alarm for nine am", "intent": "alarm_set"}
+{"sentence": "i have a meeting at noon today", "intent": "calendar_set"}
+{"sentence": "remove cereal from my shopping list", "intent": "lists_remove"}
+{"sentence": "olly where do the rocky mountains start", "intent": "qa_factoid"}
+{"sentence": "please set a meeting to discuss terrorism with fred on the next available meeting day", "intent": "calendar_set"}
+{"sentence": "news articles on a particular subject", "intent": "news_query"}
+{"sentence": "send a replay email", "intent": "email_sendemail"}
+{"sentence": "i want to remove apples from list", "intent": "lists_remove"}
+{"sentence": "open temperature", "intent": "weather_query"}
+{"sentence": "remove my dinner event for monday", "intent": "calendar_remove"}
+{"sentence": "i want to see all set alarms", "intent": "alarm_query"}
+{"sentence": "what degree is it outside", "intent": "weather_query"}
+{"sentence": "i want to know about the brexit", "intent": "news_query"}
+{"sentence": "when was last academy award winning movie", "intent": "qa_factoid"}
+{"sentence": "title", "intent": "music_query"}
+{"sentence": "radio please", "intent": "play_radio"}
+{"sentence": "play me last year's hits", "intent": "play_music"}
+{"sentence": "i want the music to be saved can you do it for me", "intent": "music_likeness"}
+{"sentence": "i didn't get the product on time send a tweet to jcpenney", "intent": "social_post"}
+{"sentence": "put the lights off now", "intent": "iot_hue_lightoff"}
+{"sentence": "what is the chance of precipitation in todays weather", "intent": "weather_query"}
+{"sentence": "do i have any remainder about birthday party", "intent": "calendar_query"}
+{"sentence": "how many lists do i have in contacts", "intent": "lists_query"}
+{"sentence": "how have megatel shares done last week", "intent": "qa_stock"}
+{"sentence": "i need to get a ticket via train to orlando from hwood", "intent": "transport_ticket"}
+{"sentence": "remind me at", "intent": "calendar_set"}
+{"sentence": "research the clients that will attend the meeting", "intent": "calendar_set"}
+{"sentence": "when will my chinese food be delivered", "intent": "takeaway_query"}
+{"sentence": "i need to get up at ten tomorrow", "intent": "alarm_set"}
+{"sentence": "who is doing facebook live right now", "intent": "social_query"}
+{"sentence": "please create a new list for me", "intent": "lists_createoradd"}
+{"sentence": "remind me of my meeting on", "intent": "calendar_set"}
+{"sentence": "turn my morning alarm on", "intent": "alarm_set"}
+{"sentence": "stock price", "intent": "qa_stock"}
+{"sentence": "is there anything new in my mailbox", "intent": "email_query"}
+{"sentence": "enter song suggestion", "intent": "music_likeness"}
+{"sentence": "give me news on president trump", "intent": "news_query"}
+{"sentence": "play a random song from my playlist", "intent": "play_music"}
+{"sentence": "play reggae music", "intent": "play_music"}
+{"sentence": "put this event in a repeating pattern on my calendar", "intent": "calendar_set"}
+{"sentence": "block one hour from ten tomorrow morning", "intent": "calendar_set"}
+{"sentence": "what is the weather like right now", "intent": "weather_query"}
+{"sentence": "opinion save", "intent": "music_likeness"}
+{"sentence": "replace", "intent": "lists_remove"}
+{"sentence": "add this song for the next playing song", "intent": "play_music"}
+{"sentence": "how large is alaska", "intent": "qa_factoid"}
+{"sentence": "forward a complaint to aircel for network related issues", "intent": "social_post"}
+{"sentence": "tell me about india location", "intent": "qa_factoid"}
+{"sentence": "what lists are in my notebook", "intent": "lists_query"}
+{"sentence": "what time does the first train depart from chicago", "intent": "transport_query"}
+{"sentence": "tweet a complaint for the online bookstore", "intent": "social_post"}
+{"sentence": "remind me about my meeting an hour before it begins", "intent": "calendar_set"}
+{"sentence": "let's play you'll be the keeper and never change position", "intent": "play_game"}
+{"sentence": "clean my house", "intent": "iot_cleaning"}
+{"sentence": "set a reminder every day at noon to take medication", "intent": "calendar_set"}
+{"sentence": "switch off the lights", "intent": "iot_hue_lightoff"}
+{"sentence": "show bio of rihanna", "intent": "qa_factoid"}
+{"sentence": "play papa pear saga", "intent": "play_game"}
+{"sentence": "make the bedroom lights red and the hall lights normal color please", "intent": "iot_hue_lightchange"}
+{"sentence": "make the coffee", "intent": "iot_coffee"}
+{"sentence": "do i need to do anything today", "intent": "calendar_query"}
+{"sentence": "how tall is hulk hogan", "intent": "qa_factoid"}
+{"sentence": "tell me if i have any unread new emails", "intent": "email_query"}
+{"sentence": "send mail to ismail for office opening time table", "intent": "email_sendemail"}
+{"sentence": "describe a sloth", "intent": "qa_definition"}
+{"sentence": "i want two burgers and one coke order it fast", "intent": "takeaway_order"}
+{"sentence": "respond to my bosses email with the word that i will be in at four in the evening", "intent": "email_sendemail"}
+{"sentence": "have i need to take a sun glass", "intent": "weather_query"}
+{"sentence": "color of light should be dimmed bright", "intent": "iot_hue_lightdim"}
+{"sentence": "tell me everything you know about sloths", "intent": "qa_factoid"}
+{"sentence": "play my playlist party songs", "intent": "play_music"}
+{"sentence": "can you turn up the lights", "intent": "iot_hue_lightup"}
+{"sentence": "remove this list from the others", "intent": "lists_remove"}
+{"sentence": "comfort my ears with arijit singh", "intent": "play_music"}
+{"sentence": "take that off there", "intent": "lists_remove"}
+{"sentence": "start a pot of coffee please", "intent": "iot_coffee"}
+{"sentence": "give me all my lists", "intent": "lists_query"}
+{"sentence": "off all type of active devices", "intent": "iot_wemo_off"}
+{"sentence": "disable alarm for three pm", "intent": "alarm_remove"}
+{"sentence": "wipe everything on my calendar", "intent": "calendar_remove"}
+{"sentence": "please add list of things to buy for party", "intent": "lists_createoradd"}
+{"sentence": "new message to newmail@gmail dot com", "intent": "email_sendemail"}
+{"sentence": "i would like to reply to sarah's email", "intent": "email_sendemail"}
+{"sentence": "change the lights in my home to green", "intent": "iot_hue_lightchange"}
+{"sentence": "what lists do i have queried", "intent": "lists_query"}
+{"sentence": "add paav bhaji in menu card", "intent": "lists_createoradd"}
+{"sentence": "change the lights in the living room to green and red", "intent": "iot_hue_lightchange"}
+{"sentence": "i would like to hear some good funny jokes", "intent": "general_joke"}
+{"sentence": "can you remind me to order the turkey three weeks before thanksgiving", "intent": "calendar_set"}
+{"sentence": "set alarm six am", "intent": "alarm_set"}
+{"sentence": "check for me new emails received from sara", "intent": "email_query"}
+{"sentence": "what does my facebook feed look like", "intent": "social_query"}
+{"sentence": "prepare the order as soon as possible", "intent": "takeaway_query"}
+{"sentence": "please put event into my calendar and mark it as a repeating event", "intent": "calendar_set"}
+{"sentence": "what is going on today from two four pm", "intent": "calendar_query"}
+{"sentence": "could you please play the song from the artist madonna", "intent": "play_music"}
+{"sentence": "siri open twitter tweet @potus sucks", "intent": "social_post"}
+{"sentence": "show me my latest social media activity", "intent": "social_query"}
+{"sentence": "how the to do list for today", "intent": "lists_query"}
+{"sentence": "what is two hundred divided by ten", "intent": "qa_maths"}
+{"sentence": "make a list about selena gomez concert schedule", "intent": "lists_createoradd"}
+{"sentence": "alexa reply to the mail with the following content hello you", "intent": "email_sendemail"}
+{"sentence": "create an alarm for today at ten am", "intent": "alarm_set"}
+{"sentence": "play a retro song in my playlist", "intent": "play_music"}
+{"sentence": "erase my calendar", "intent": "calendar_remove"}
+{"sentence": "economic affairs", "intent": "news_query"}
+{"sentence": "any new email from john", "intent": "email_query"}
+{"sentence": "will the weather be less than ten degree in paris", "intent": "weather_query"}
+{"sentence": "what was the weather for the week", "intent": "weather_query"}
+{"sentence": "delete upcoming event", "intent": "calendar_remove"}
+{"sentence": "when does the next train travelling the city leave here", "intent": "transport_query"}
+{"sentence": "can you let delta know i'm never using them again", "intent": "social_post"}
+{"sentence": "make the radio turn on now", "intent": "play_radio"}
+{"sentence": "what is the current temperature outside", "intent": "weather_query"}
+{"sentence": "put dark colours instead of light ones in the house", "intent": "iot_hue_lightchange"}
+{"sentence": "where is fiji", "intent": "qa_factoid"}
+{"sentence": "what are the events next week", "intent": "calendar_query"}
+{"sentence": "please turn off the lights in patio", "intent": "iot_hue_lightoff"}
+{"sentence": "play for me the game harry potter and the chamber of secrets", "intent": "play_game"}
+{"sentence": "list everything left on my query", "intent": "lists_query"}
+{"sentence": "have any emails arrived in the last fifteen minutes", "intent": "email_query"}
+{"sentence": "olly what is the capital of california", "intent": "qa_factoid"}
+{"sentence": "add a reminder to my calendar every year on this date", "intent": "calendar_set"}
+{"sentence": "what does turbulence mean", "intent": "qa_definition"}
+{"sentence": "start the vacuum", "intent": "iot_cleaning"}
+{"sentence": "what was the subject of the last email from mom", "intent": "email_query"}
+{"sentence": "elections in up", "intent": "news_query"}
+{"sentence": "what are the news stories on the cnn website", "intent": "news_query"}
+{"sentence": "meeting reminders from three to five", "intent": "calendar_query"}
+{"sentence": "please purchase a train ticket for this weekend", "intent": "transport_ticket"}
+{"sentence": "what's up olly", "intent": "general_greet"}
+{"sentence": "book an uber to pick me up now", "intent": "transport_taxi"}
+{"sentence": "search my calendar for my next event and notify me before it occurs", "intent": "calendar_set"}
+{"sentence": "news from cnn", "intent": "news_query"}
+{"sentence": "make me a cup of coffee with salted carmel flavored cream", "intent": "iot_coffee"}
+{"sentence": "information of recent events", "intent": "calendar_query"}
+{"sentence": "do i have any incoming emails", "intent": "email_query"}
+{"sentence": "please remove my list of favorite albums", "intent": "lists_remove"}
+{"sentence": "start the dogwalking playlist", "intent": "play_music"}
+{"sentence": "i want the smart socket off now", "intent": "iot_wemo_off"}
+{"sentence": "do i have a meeting this afternoon", "intent": "calendar_query"}
+{"sentence": "send email to new contact", "intent": "email_sendemail"}
+{"sentence": "can you tell me about the traffic", "intent": "transport_traffic"}
+{"sentence": "turn off eight am alarm", "intent": "alarm_remove"}
+{"sentence": "make coffee at three", "intent": "iot_coffee"}
+{"sentence": "play an fm", "intent": "play_radio"}
+{"sentence": "please tell me what alarms are on", "intent": "alarm_query"}
+{"sentence": "turn on a country music station", "intent": "play_radio"}
+{"sentence": "detail for stock price", "intent": "qa_stock"}
+{"sentence": "play mf doom anything", "intent": "play_music"}
+{"sentence": "remind me tomorrow at ten am about the meeting", "intent": "calendar_set"}
+{"sentence": "please email my team", "intent": "email_sendemail"}
+{"sentence": "send complaint via tweet to j crew", "intent": "social_post"}
+{"sentence": "add meeting reminder for sunday with my parents in law", "intent": "calendar_set"}
+{"sentence": "order a train ticket to boston", "intent": "transport_ticket"}
+{"sentence": "give me some good sounds", "intent": "play_music"}
+{"sentence": "i want to hear a joke", "intent": "general_joke"}
+{"sentence": "what is the commute time to the theater", "intent": "transport_query"}
+{"sentence": "i need a meeting to be schedule with this person", "intent": "calendar_set"}
+{"sentence": "how's the weather like in new jersey", "intent": "weather_query"}
+{"sentence": "turn off kitchen light", "intent": "iot_hue_lightoff"}
+{"sentence": "remind me to take my medicine at nine am", "intent": "calendar_set"}
+{"sentence": "please check my reminders", "intent": "calendar_query"}
+{"sentence": "ticket for delhi", "intent": "transport_ticket"}
+{"sentence": "what's the latest news from xinhua", "intent": "news_query"}
+{"sentence": "post complaint about service a", "intent": "social_post"}
+{"sentence": "please clean my shopping list", "intent": "lists_remove"}
+{"sentence": "any new email since last time", "intent": "email_query"}
+{"sentence": "reply an email to jason that i will not come tonight", "intent": "email_sendemail"}
+{"sentence": "what was elvis presley's birthday", "intent": "qa_factoid"}
+{"sentence": "check mail for anything from shelly", "intent": "email_query"}
+{"sentence": "has jane doe emailed me", "intent": "email_query"}
+{"sentence": "delete all events from my calendar", "intent": "calendar_remove"}
+{"sentence": "what is the weather for this week", "intent": "weather_query"}
+{"sentence": "play song next", "intent": "play_music"}
+{"sentence": "set event date in calendar with others", "intent": "calendar_set"}
+{"sentence": "book a train ticket from baltimore maryland to new york new york", "intent": "transport_ticket"}
+{"sentence": "what will the weather be tomorrow", "intent": "weather_query"}
+{"sentence": "set reminder for noon to get lunch with boss", "intent": "calendar_set"}
+{"sentence": "any mail from amazon today", "intent": "email_query"}
+{"sentence": "give me the definition for the word pontificate", "intent": "qa_definition"}
+{"sentence": "take out available louies", "intent": "takeaway_query"}
+{"sentence": "what is my schedule for the day", "intent": "calendar_query"}
+{"sentence": "where was steve jobs born", "intent": "qa_factoid"}
+{"sentence": "send an email to jake to tell him thank you", "intent": "email_sendemail"}
+{"sentence": "please book a train ticket from london to manchester", "intent": "transport_ticket"}
+{"sentence": "play the beatles", "intent": "play_music"}
+{"sentence": "can you put on love playlist", "intent": "play_music"}
+{"sentence": "what color is a dragon fruit", "intent": "qa_factoid"}
+{"sentence": "run the vacuum", "intent": "iot_cleaning"}
+{"sentence": "i want you to make alert in the evening about upcoming meeting", "intent": "calendar_set"}
+{"sentence": "remove tuesday alarm of nine am", "intent": "alarm_remove"}
+{"sentence": "new meeting add bill and malinda as attendees", "intent": "calendar_set"}
+{"sentence": "check if default alarm is set", "intent": "alarm_query"}
+{"sentence": "start music app and play a song for me", "intent": "play_music"}
+{"sentence": "put on the vacuum on now and clean the living room", "intent": "iot_cleaning"}
+{"sentence": "what's the sum of the two numbers four and six", "intent": "qa_maths"}
+{"sentence": "play for me the music by the beatles", "intent": "play_music"}
+{"sentence": "add a new email for julie smith", "intent": "email_sendemail"}
+{"sentence": "how to get somewhere", "intent": "transport_query"}
+{"sentence": "my desire is to listen to some country music", "intent": "play_music"}
+{"sentence": "it's time for junk food", "intent": "takeaway_order"}
+{"sentence": "switch off the master's bedroom", "intent": "iot_hue_lightoff"}
+{"sentence": "do you recommend an umbrellas", "intent": "weather_query"}
+{"sentence": "play country radio", "intent": "play_radio"}
+{"sentence": "list all the lists on this device", "intent": "lists_query"}
+{"sentence": "show me my events", "intent": "calendar_query"}
+{"sentence": "disable smart socket", "intent": "iot_wemo_off"}
+{"sentence": "start coffee at six am", "intent": "iot_coffee"}
+{"sentence": "find a taxi to book", "intent": "transport_taxi"}
+{"sentence": "what's in my inbox since we last looked", "intent": "email_query"}
+{"sentence": "decrease brightness of lights", "intent": "iot_hue_lightdim"}
+{"sentence": "what is the news from that newsource", "intent": "news_query"}
+{"sentence": "song info", "intent": "music_query"}
+{"sentence": "how big is the cosmos", "intent": "qa_factoid"}
+{"sentence": "what is the interview time from yesterday's email", "intent": "email_query"}
+{"sentence": "i have a function at washington tomorrow remind it", "intent": "calendar_set"}
+{"sentence": "erase all the events", "intent": "calendar_remove"}
+{"sentence": "what is going on in the world today", "intent": "news_query"}
+{"sentence": "if a pencil cost four dollars and a book ten dollars cost how much i should pay if i buy two pencil and three book", "intent": "qa_maths"}
+{"sentence": "set a reminder about todays faculty meeting at four", "intent": "calendar_set"}
+{"sentence": "does the weather call for rain saturday", "intent": "weather_query"}
+{"sentence": "set a repeating reminder alarm for the facebook event i have to attend on seventh april", "intent": "alarm_set"}
+{"sentence": "power off please", "intent": "iot_wemo_off"}
+{"sentence": "what reminders do i still have", "intent": "calendar_query"}
+{"sentence": "write a reply to my mother's email", "intent": "email_sendemail"}
+{"sentence": "please play only music of pop mix", "intent": "play_music"}
+{"sentence": "play britney spears live concert series", "intent": "play_radio"}
+{"sentence": "hey olly turn off the light please", "intent": "iot_hue_lightoff"}
+{"sentence": "what is four plus five", "intent": "qa_maths"}
+{"sentence": "please set lunch meeting at twelve pm for every wednesday in march", "intent": "calendar_set"}
+{"sentence": "delete my list", "intent": "lists_remove"}
+{"sentence": "reply to the mail with the following content hello you", "intent": "email_sendemail"}
+{"sentence": "what does my schedule look like today", "intent": "calendar_query"}
+{"sentence": "please check my emails for me", "intent": "email_query"}
+{"sentence": "post a tweet as follows very bad follow up by abc company not satisfied in my account", "intent": "social_post"}
+{"sentence": "set up a notification about tomorrow's meeting at ten", "intent": "calendar_set"}
+{"sentence": "pandora", "intent": "play_music"}
+{"sentence": "what size is a sperm whale", "intent": "qa_factoid"}
+{"sentence": "how many plays has patrick stewart been in", "intent": "qa_factoid"}
+{"sentence": "why are whales big", "intent": "qa_factoid"}
+{"sentence": "will i need to carry around a brolly today", "intent": "weather_query"}
+{"sentence": "two by two is", "intent": "qa_maths"}
+{"sentence": "what is the weather in beijing", "intent": "weather_query"}
+{"sentence": "for every odd numbered sunday set a reminder for", "intent": "calendar_set"}
+{"sentence": "hey olly chance the current light settings", "intent": "iot_hue_lightchange"}
+{"sentence": "notify me when joshua emails me", "intent": "email_query"}
+{"sentence": "delete all lists", "intent": "lists_remove"}
+{"sentence": "what's two plus two", "intent": "qa_maths"}
+{"sentence": "did i get an email from paul", "intent": "email_query"}
+{"sentence": "i like the songs of yeshudas please play it", "intent": "music_likeness"}
+{"sentence": "is calendar event true", "intent": "calendar_query"}
+{"sentence": "brightness ninety percent", "intent": "iot_hue_lightchange"}
+{"sentence": "please show today meeting with clients", "intent": "calendar_query"}
+{"sentence": "alexa remove dinner with mike from my calendar", "intent": "calendar_remove"}
+{"sentence": "does the nearby dominos have delivery", "intent": "takeaway_query"}
+{"sentence": "play all music by billy joel", "intent": "play_music"}
+{"sentence": "make the house lights amber at six pm", "intent": "iot_hue_lightchange"}
+{"sentence": "post my latest entry to twitter @nsa", "intent": "social_post"}
+{"sentence": "play best friends by yelawolf", "intent": "play_music"}
+{"sentence": "is my reminder alarm set for dance class", "intent": "alarm_query"}
+{"sentence": "delete the first item on the list", "intent": "lists_remove"}
+{"sentence": "open gallery post picture name", "intent": "social_post"}
+{"sentence": "check for new email", "intent": "email_query"}
+{"sentence": "can you remind my next meeting with my boss one hour before it will happen", "intent": "calendar_set"}
+{"sentence": "show me the events in my work calendar for next week", "intent": "calendar_set"}
+{"sentence": "please add my pay days", "intent": "calendar_set"}
+{"sentence": "erase all the events in the calendar", "intent": "calendar_remove"}
+{"sentence": "do you know the weather", "intent": "weather_query"}
+{"sentence": "what does celebrity do", "intent": "qa_factoid"}
+{"sentence": "tell me when i have an event", "intent": "calendar_set"}
+{"sentence": "who wrote this song", "intent": "music_query"}
+{"sentence": "what is googs current price", "intent": "qa_stock"}
+{"sentence": "can you lower the lights", "intent": "iot_hue_lightdim"}
+{"sentence": "remove pencil from stationary", "intent": "lists_remove"}
+{"sentence": "what is the traffic like on my commute home at five", "intent": "transport_query"}
+{"sentence": "has john sent me an email", "intent": "email_query"}
+{"sentence": "play music from my rock list", "intent": "play_music"}
+{"sentence": "do you know jessica snout's phone number", "intent": "qa_factoid"}
+{"sentence": "call for takeout", "intent": "takeaway_order"}
+{"sentence": "s", "intent": "play_music"}
+{"sentence": "what is the fastest way to get to starbucks", "intent": "transport_query"}
+{"sentence": "get hourly notification on sports news", "intent": "news_query"}
+{"sentence": "current song playing what is it", "intent": "music_query"}
+{"sentence": "where did mahatma gandhi born", "intent": "qa_factoid"}
+{"sentence": "are sunglasses a good choice for today", "intent": "weather_query"}
+{"sentence": "what region is miami located", "intent": "qa_factoid"}
+{"sentence": "play for me music by the beatles", "intent": "play_music"}
+{"sentence": "how old is marian carey", "intent": "qa_factoid"}
+{"sentence": "check the dish price and all", "intent": "takeaway_query"}
+{"sentence": "i want an alarm for three today", "intent": "alarm_set"}
+{"sentence": "remove meeting reminder for tuesday", "intent": "calendar_remove"}
+{"sentence": "notify me about the event in my calendar", "intent": "calendar_set"}
+{"sentence": "can you please play imogen heap", "intent": "play_music"}
+{"sentence": "important house information", "intent": "lists_query"}
+{"sentence": "what time is my appointment on april fourth", "intent": "calendar_query"}
+{"sentence": "what's happening in the news", "intent": "news_query"}
+{"sentence": "ok google where does sophia vergara live", "intent": "qa_factoid"}
+{"sentence": "what is a neutral density filter and would i want a gradient one or a solid one also which would be better in style between the screw on one and the square ones", "intent": "qa_factoid"}
+{"sentence": "what times are my alarms set for", "intent": "alarm_query"}
+{"sentence": "read back my grocery list to me", "intent": "lists_query"}
+{"sentence": "what was the last movie will smith was in", "intent": "qa_factoid"}
+{"sentence": "tell me my options for a train to los angles next wednesday or thursday", "intent": "transport_query"}
+{"sentence": "by get marks", "intent": "weather_query"}
+{"sentence": "olly tweet a message to at&t and tell them my service is bad", "intent": "social_post"}
+{"sentence": "hey send a meeting invite to mr ross for this friday's meeting and block my calendar for friday afternoon", "intent": "calendar_set"}
+{"sentence": "reply thank you to john", "intent": "email_sendemail"}
+{"sentence": "create reminder for laundry at eight pm", "intent": "calendar_set"}
+{"sentence": "check stock price for dinky donuts", "intent": "qa_stock"}
+{"sentence": "no lights in the kitchen", "intent": "iot_hue_lightoff"}
+{"sentence": "set a reminder to notify me one hour before lunch meeting", "intent": "calendar_set"}
+{"sentence": "play the second song from anirudh's song", "intent": "play_music"}
+{"sentence": "set an alarm for tomorrow at six in the morning", "intent": "alarm_set"}
+{"sentence": "play jingle bells", "intent": "play_music"}
+{"sentence": "how cold is today", "intent": "weather_query"}
+{"sentence": "read my grocery list", "intent": "lists_query"}
+{"sentence": "do i have any new email from joe", "intent": "email_query"}
+{"sentence": "remove from calendar my medical appointment for today", "intent": "calendar_remove"}
+{"sentence": "please check my emails and notify me if exists any new email", "intent": "email_query"}
+{"sentence": "tell me about the latest environmental news", "intent": "news_query"}
+{"sentence": "please add oranges to my grocery list", "intent": "lists_createoradd"}
+{"sentence": "give me news from cnn", "intent": "news_query"}
+{"sentence": "how is the traffic at the moment", "intent": "transport_traffic"}
+{"sentence": "show me recent emails", "intent": "email_query"}
+{"sentence": "email form for regional vp", "intent": "email_sendemail"}
+{"sentence": "please play shake it off by taylor swiftm", "intent": "play_music"}
+{"sentence": "i'd like you to turn turn on the tv", "intent": "iot_wemo_on"}
+{"sentence": "will i need an umbrella this week", "intent": "weather_query"}
+{"sentence": "what's the news for today", "intent": "news_query"}
+{"sentence": "give me the schedule for today's events", "intent": "calendar_query"}
+{"sentence": "did charlotte responded", "intent": "email_query"}
+{"sentence": "should i wear raincoat before getting out", "intent": "weather_query"}
+{"sentence": "tell me that list i wrote two days ago", "intent": "lists_query"}
+{"sentence": "will trump visit russia anytime soon", "intent": "news_query"}
+{"sentence": "let's hear some indie rock okay", "intent": "play_music"}
+{"sentence": "front page news articles please", "intent": "news_query"}
+{"sentence": "show me the available colours of lights", "intent": "iot_hue_lightchange"}
+{"sentence": "change the lights to a different hue", "intent": "iot_hue_lightchange"}
+{"sentence": "make event", "intent": "calendar_set"}
+{"sentence": "what is the latest story from fox news", "intent": "news_query"}
+{"sentence": "i want to listen radio", "intent": "play_radio"}
+{"sentence": "remind me about this", "intent": "calendar_set"}
+{"sentence": "locate the email to giant eagle and put it into my contact list", "intent": "email_addcontact"}
+{"sentence": "birthday", "intent": "calendar_set"}
+{"sentence": "hey has john sent me any email lately", "intent": "email_query"}
+{"sentence": "book me a cab going to location", "intent": "transport_taxi"}
+{"sentence": "more stock price", "intent": "qa_stock"}
+{"sentence": "thirty minute reminder on meeting for tuesday", "intent": "calendar_set"}
+{"sentence": "olly what's hot social media topics", "intent": "social_query"}
+{"sentence": "set a new alarm for that time", "intent": "alarm_set"}
+{"sentence": "send a reply to mike with the answer four hundred and thirty from his email he sent this morning", "intent": "email_sendemail"}
+{"sentence": "remember how i fell about this song", "intent": "music_likeness"}
+{"sentence": "show me the answer for this problem two hundred and forty six plus six hundred and fifty four", "intent": "qa_maths"}
+{"sentence": "turn off sockets", "intent": "iot_wemo_off"}
+{"sentence": "olly change the color of the lights", "intent": "iot_hue_lightchange"}
+{"sentence": "don't let me forget to buy a gift for my sister", "intent": "calendar_set"}
+{"sentence": "mild or heavy weather", "intent": "weather_query"}
+{"sentence": "turn the smart plug on", "intent": "iot_wemo_on"}
+{"sentence": "play techno music", "intent": "play_music"}
+{"sentence": "schedule a meeting event in my calendar", "intent": "calendar_set"}
+{"sentence": "show me my meeting for the next month", "intent": "calendar_query"}
+{"sentence": "i want a coffee", "intent": "iot_coffee"}
+{"sentence": "directions please", "intent": "transport_query"}
+{"sentence": "play me a random song from my playlist", "intent": "play_music"}
+{"sentence": "send a reply if it is very important", "intent": "email_query"}
+{"sentence": "do i have any new emails in the last hour", "intent": "email_query"}
+{"sentence": "how much is a round trip train ticket to go to new york", "intent": "transport_query"}
+{"sentence": "how's the weather in the capital city", "intent": "weather_query"}
+{"sentence": "should i wear a jacket", "intent": "weather_query"}
+{"sentence": "are there any upcoming concerts by", "intent": "music_likeness"}
+{"sentence": "pull up kate's email and write that i will let her know", "intent": "email_sendemail"}
+{"sentence": "what time have you set the alarm", "intent": "alarm_query"}
+{"sentence": "report weather for largo", "intent": "weather_query"}
+{"sentence": "invite people to the calendar event", "intent": "calendar_set"}
+{"sentence": "show me the train schedules to the metropolitan opera house", "intent": "transport_query"}
+{"sentence": "i will require full cover jacket if it is too stormy in evening", "intent": "weather_query"}
+{"sentence": "what times do my alarms go off", "intent": "alarm_query"}
+{"sentence": "facebook current stock rate", "intent": "qa_stock"}
+{"sentence": "ok google what is a president", "intent": "qa_definition"}
+{"sentence": "who mailed me yesterday", "intent": "email_query"}
+{"sentence": "can i get takeout from pf changs", "intent": "takeaway_query"}
+{"sentence": "please show me any articles related to weather in the morning news", "intent": "news_query"}
+{"sentence": "make the lights pink", "intent": "iot_hue_lightchange"}
+{"sentence": "what music is currently playing on", "intent": "music_query"}
+{"sentence": "set notifications on the current weather disasters in america", "intent": "calendar_set"}
+{"sentence": "show meetings", "intent": "calendar_set"}
+{"sentence": "olly turn the light off in the living room", "intent": "iot_hue_lightoff"}
+{"sentence": "tell me about my alarms", "intent": "alarm_query"}
+{"sentence": "are thier any new emails for me today", "intent": "email_query"}
+{"sentence": "could you please play the classical music for me", "intent": "play_music"}
+{"sentence": "how do i get home from here", "intent": "transport_query"}
+{"sentence": "delete events from calendar", "intent": "calendar_remove"}
+{"sentence": "did i set an alarm to have tablets in the noon", "intent": "alarm_query"}
+{"sentence": "hey olly please tell me the name of this song that is currently playing", "intent": "music_query"}
+{"sentence": "alexa play song over the rainbow", "intent": "play_music"}
+{"sentence": "give me more light", "intent": "iot_hue_lightup"}
+{"sentence": "read me new post on my feed", "intent": "social_query"}
+{"sentence": "please tell me what is the definition of cylinder", "intent": "qa_definition"}
+{"sentence": "start a vacuum cleaner", "intent": "iot_cleaning"}
+{"sentence": "what is the population of new york", "intent": "qa_factoid"}
+{"sentence": "what is the event agenda", "intent": "calendar_query"}
+{"sentence": "what are the latest crime statistics for me area", "intent": "news_query"}
+{"sentence": "list items on my work list", "intent": "lists_query"}
+{"sentence": "show me the latest emails from amazon", "intent": "email_query"}
+{"sentence": "bbc world headlines", "intent": "news_query"}
+{"sentence": "please play shape of you by ed sheeran", "intent": "play_music"}
+{"sentence": "make a coffee", "intent": "iot_coffee"}
+{"sentence": "i need to add a new email to my contacts", "intent": "email_sendemail"}
+{"sentence": "what's the best way to sheffield", "intent": "transport_query"}
+{"sentence": "can i wear my sandals today", "intent": "weather_query"}
+{"sentence": "identify song", "intent": "music_query"}
+{"sentence": "directions to disney land", "intent": "transport_query"}
+{"sentence": "tell me current events between yesterday and this morning", "intent": "calendar_query"}
+{"sentence": "tomorrow's temperature is to be hot yes or no", "intent": "weather_query"}
+{"sentence": "show me my alarms i have set", "intent": "alarm_query"}
+{"sentence": "remind me what i am doing on sunday afternoon", "intent": "calendar_set"}
+{"sentence": "any alarms currently listed", "intent": "alarm_query"}
+{"sentence": "report weather for thirty three thousand seven hundred and seventy four", "intent": "weather_query"}
+{"sentence": "hey send email to john", "intent": "email_sendemail"}
+{"sentence": "what is the weather in pittsburgh", "intent": "weather_query"}
+{"sentence": "delete all dates", "intent": "calendar_remove"}
+{"sentence": "can you book a train ticket", "intent": "transport_ticket"}
+{"sentence": "will you mark that i have a meeting with tom at three tomorrow", "intent": "calendar_set"}
+{"sentence": "where is the kiss concert", "intent": "calendar_query"}
+{"sentence": "will it rain now", "intent": "weather_query"}
+{"sentence": "make it red in here", "intent": "iot_hue_lightchange"}
+{"sentence": "describe about the computer hard disk", "intent": "qa_definition"}
+{"sentence": "coffee make now", "intent": "iot_coffee"}
+{"sentence": "add broccoli to my grocery list", "intent": "lists_createoradd"}
+{"sentence": "did i receive any new email from robert", "intent": "email_query"}
+{"sentence": "what are my next three events", "intent": "calendar_query"}
+{"sentence": "compose a new email to ray", "intent": "email_sendemail"}
+{"sentence": "tell interesting news", "intent": "news_query"}
+{"sentence": "how long will it take to get to the airport", "intent": "transport_query"}
+{"sentence": "what is the definition of forensic", "intent": "qa_definition"}
+{"sentence": "how much is one plus one", "intent": "qa_maths"}
+{"sentence": "olly play i can't feel my face", "intent": "play_music"}
+{"sentence": "do i have any notifications from social media", "intent": "calendar_query"}
+{"sentence": "where is the public library", "intent": "transport_query"}
+{"sentence": "save this song to playlist", "intent": "music_likeness"}
+{"sentence": "show me news about trump", "intent": "news_query"}
+{"sentence": "set my coffee machine", "intent": "iot_coffee"}
+{"sentence": "is there any post from my friend mike in facebook", "intent": "social_query"}
+{"sentence": "rahul marriage reminder", "intent": "calendar_query"}
+{"sentence": "did anyone like my photo i just posted", "intent": "social_query"}
+{"sentence": "send a twitter complaint", "intent": "social_post"}
+{"sentence": "what do we have on new york time's front page", "intent": "news_query"}
+{"sentence": "please add complaint about the service in tweet to olive garden", "intent": "social_post"}
+{"sentence": "opinion pb", "intent": "music_likeness"}
+{"sentence": "what's the latest news", "intent": "news_query"}
+{"sentence": "what is the size of the united states", "intent": "qa_factoid"}
+{"sentence": "how is it outside", "intent": "weather_query"}
+{"sentence": "play radio with nonstop songs", "intent": "play_radio"}
+{"sentence": "do i have a grocery list ready", "intent": "lists_query"}
+{"sentence": "i'd like to set a date for this week", "intent": "calendar_set"}
+{"sentence": "remind me to start supper this afternoon at five", "intent": "calendar_set"}
+{"sentence": "is there any special in politic", "intent": "news_query"}
+{"sentence": "email my boss that i will be late today because of an emergency and apologize to him for missing the meeting", "intent": "email_sendemail"}
+{"sentence": "play racing", "intent": "play_game"}
+{"sentence": "i want more light", "intent": "iot_hue_lightup"}
+{"sentence": "turn the plug off", "intent": "iot_wemo_off"}
+{"sentence": "delete my to do's for this week", "intent": "lists_remove"}
+{"sentence": "play ping pong", "intent": "play_game"}
+{"sentence": "can you please order some food for me", "intent": "takeaway_order"}
+{"sentence": "meet with joe tomorrow at three", "intent": "calendar_set"}
+{"sentence": "create a notification reminder for meeting tomorrow", "intent": "calendar_set"}
+{"sentence": "start my playlist on i heart radio", "intent": "play_radio"}
+{"sentence": "what is the factorial of x", "intent": "qa_maths"}
+{"sentence": "write and send email to my boss", "intent": "email_sendemail"}
+{"sentence": "plan for tomorrow", "intent": "calendar_query"}
+{"sentence": "what news has happened on cnn today", "intent": "news_query"}
+{"sentence": "what exactly is a resin tooth filling", "intent": "qa_definition"}
+{"sentence": "tweet that there was an insect in the chocolate packet", "intent": "social_post"}
+{"sentence": "is fongs dine in only", "intent": "takeaway_query"}
+{"sentence": "when can we eat", "intent": "takeaway_query"}
+{"sentence": "please remind me to go to the post office", "intent": "calendar_set"}
+{"sentence": "check my emails for something from name", "intent": "email_query"}
+{"sentence": "can you loop the playlist themes", "intent": "play_music"}
+{"sentence": "send an email to jerry ask what time will he be home tonight", "intent": "email_sendemail"}
+{"sentence": "add event for meeting with james", "intent": "calendar_set"}
+{"sentence": "alexa i've got dollars for the month how much can i spend every day this month", "intent": "qa_maths"}
+{"sentence": "remove milk from my grocery list", "intent": "lists_remove"}
+{"sentence": "i want to make this week's shopping list", "intent": "lists_createoradd"}
+{"sentence": "tweet a message to suqcom that i am still waiting for my delivery", "intent": "social_post"}
+{"sentence": "please start the coffee pot", "intent": "iot_coffee"}
+{"sentence": "how tall is brad pitt", "intent": "qa_factoid"}
+{"sentence": "add a meeting at the office with brian for three pm on tuesday", "intent": "calendar_set"}
+{"sentence": "can you check the facts on this issue", "intent": "calendar_query"}
+{"sentence": "set reminder to print the documents on tuesday morning", "intent": "calendar_set"}
+{"sentence": "get me the latest stock price for costco", "intent": "news_query"}
+{"sentence": "how we can get credit", "intent": "email_sendemail"}
+{"sentence": "what was the last email from work", "intent": "email_query"}
+{"sentence": "turn off the lights in the kitchen", "intent": "iot_hue_lightoff"}
+{"sentence": "who is the music director of this song", "intent": "music_query"}
+{"sentence": "start playing", "intent": "play_music"}
+{"sentence": "how old is emma watson newest boyfriend", "intent": "qa_factoid"}
+{"sentence": "new pop music", "intent": "play_music"}
+{"sentence": "send an email to margaret", "intent": "email_sendemail"}
+{"sentence": "someone play the radio", "intent": "play_radio"}
+{"sentence": "change my light color to blue and please turn off the kitchen light", "intent": "iot_hue_lightchange"}
+{"sentence": "fm ninety three point five radio songs", "intent": "play_radio"}
+{"sentence": "i want to do laundry at eight pm create reminder", "intent": "calendar_set"}
+{"sentence": "what time are the trains going to chennai leaving", "intent": "transport_query"}
+{"sentence": "turn on new smart socket", "intent": "iot_wemo_on"}
+{"sentence": "are you aware this joke", "intent": "general_joke"}
+{"sentence": "alexa turn the lights down to seven", "intent": "iot_hue_lightdim"}
+{"sentence": "send an email to this contact", "intent": "email_sendemail"}
+{"sentence": "only nine hundred and ninety nine fm is to be played on the radio", "intent": "play_radio"}
+{"sentence": "remind me of rita's birthday twenty four hours in advance", "intent": "calendar_set"}
+{"sentence": "dictate email", "intent": "email_sendemail"}
+{"sentence": "tell me about trump", "intent": "news_query"}
+{"sentence": "open twitter type my complaint and post to @consumer service", "intent": "social_post"}
+{"sentence": "what is new news for today", "intent": "news_query"}
+{"sentence": "book a first class ticket in the next train to miami", "intent": "transport_ticket"}
+{"sentence": "buy me a ticket to boston", "intent": "transport_ticket"}
+{"sentence": "hey what's a book", "intent": "qa_definition"}
+{"sentence": "play coldplay album", "intent": "play_music"}
+{"sentence": "find me a joke related to baseball", "intent": "general_joke"}
+{"sentence": "who is the singer of song", "intent": "music_query"}
+{"sentence": "email naty for her birthday", "intent": "email_sendemail"}
+{"sentence": "play the romantic songs", "intent": "play_music"}
+{"sentence": "please read new emails", "intent": "email_query"}
+{"sentence": "olly if any new news comes out about the flood can you let me know right away", "intent": "news_query"}
+{"sentence": "play my spotify dance play list", "intent": "play_music"}
+{"sentence": "delete all the events in my calendar", "intent": "calendar_remove"}
+{"sentence": "where can i get a shot of tequila and some to go mexican food", "intent": "takeaway_query"}
+{"sentence": "can you send the email to the new email id", "intent": "email_sendemail"}
+{"sentence": "tell me the percentage of the chance of rain in seattle washington for today", "intent": "weather_query"}
+{"sentence": "remind me on fifth march of every year to arrange wedding anniversary presents", "intent": "calendar_set"}
+{"sentence": "find me the cheapest train ticket to spain", "intent": "transport_ticket"}
+{"sentence": "please say to the email that sent me george i need the money now it's urgent", "intent": "email_sendemail"}
+{"sentence": "explanation of the song", "intent": "music_query"}
+{"sentence": "more lights please", "intent": "iot_hue_lightup"}
+{"sentence": "do you know the eta of my order", "intent": "takeaway_query"}
+{"sentence": "topic", "intent": "email_query"}
+{"sentence": "can you make this event repetitive", "intent": "calendar_set"}
+{"sentence": "remove event from my list", "intent": "lists_remove"}
+{"sentence": "what's the capital of kazakhstan", "intent": "qa_factoid"}
+{"sentence": "please set a reminder in my calendar for my meeting on march twenty five", "intent": "calendar_set"}
+{"sentence": "can you contact samsung and say my washer is on fire", "intent": "social_post"}
+{"sentence": "please add supervision to my calendar", "intent": "calendar_set"}
+{"sentence": "what are lady gagas most popular songs", "intent": "music_query"}
+{"sentence": "is there any news about the presidency", "intent": "news_query"}
+{"sentence": "ok google tweet what a jerk the owner is at the gas station", "intent": "social_post"}
+{"sentence": "olly i feel like dancing play me some rock n roll", "intent": "play_music"}
+{"sentence": "will you remind me of the dentist appointment i have in two hours", "intent": "calendar_set"}
+{"sentence": "start radio channel eight hundred and eighty nine", "intent": "play_radio"}
+{"sentence": "set an event for friday", "intent": "calendar_set"}
+{"sentence": "what is the stock price of hdfc", "intent": "qa_stock"}
+{"sentence": "delete item from list", "intent": "lists_remove"}
+{"sentence": "how old is mariah carey", "intent": "qa_factoid"}
+{"sentence": "has ben got in touch", "intent": "email_query"}
+{"sentence": "how long will it take to travel to japan from south korea", "intent": "qa_factoid"}
+{"sentence": "check my new emails and tell me what are they about", "intent": "email_query"}
+{"sentence": "open meeting time", "intent": "calendar_query"}
+{"sentence": "hey olly cancel all my other meetings and calls for second march as it is jim's birthday tag it as an event in your calendar", "intent": "calendar_set"}
+{"sentence": "give me the latest news", "intent": "news_query"}
+{"sentence": "will it snow tomorrow at noon", "intent": "weather_query"}
+{"sentence": "what is the definition of timeliness", "intent": "qa_definition"}
+{"sentence": "when is the next time it will rain", "intent": "weather_query"}
+{"sentence": "store opinion on song", "intent": "music_likeness"}
+{"sentence": "have i received any emails with tracking numbers", "intent": "email_query"}
+{"sentence": "get sia's cheap thrills ready to play next", "intent": "play_music"}
+{"sentence": "does kim kardashian wear converse", "intent": "qa_factoid"}
+{"sentence": "post i am happy to facebook", "intent": "social_post"}
+{"sentence": "turn off room lights", "intent": "iot_hue_lightoff"}
+{"sentence": "read me the latest new york times headlines", "intent": "news_query"}
+{"sentence": "lower the lights", "intent": "iot_hue_lightdim"}
+{"sentence": "is there an alarm for ten am", "intent": "alarm_query"}
+{"sentence": "tell me the temperature", "intent": "weather_query"}
+{"sentence": "tell me where steve jobs was born", "intent": "qa_factoid"}
+{"sentence": "do i have any new emails from my contact q", "intent": "email_query"}
+{"sentence": "keep me up to date with the world news", "intent": "news_query"}
+{"sentence": "hot topic", "intent": "news_query"}
+{"sentence": "play the sweet song on radio", "intent": "play_radio"}
+{"sentence": "start radio play", "intent": "play_radio"}
+{"sentence": "how would you describe a ball", "intent": "qa_definition"}
+{"sentence": "what year did george clooney start acting", "intent": "qa_factoid"}
+{"sentence": "please compose a new email to coworker", "intent": "email_sendemail"}
+{"sentence": "i dont want any alarms", "intent": "alarm_remove"}
+{"sentence": "remove set alarm", "intent": "alarm_remove"}
+{"sentence": "how many reminders do i have", "intent": "calendar_query"}
+{"sentence": "set meeting with joanna on saturday four pm", "intent": "calendar_set"}
+{"sentence": "please place my new email address to the contact", "intent": "email_addcontact"}
+{"sentence": "info on this week weather", "intent": "weather_query"}
+{"sentence": "compose email", "intent": "email_sendemail"}
+{"sentence": "what is one plus one", "intent": "qa_maths"}
+{"sentence": "i want some jazz music to play", "intent": "play_music"}
+{"sentence": "olly play a good track from my favourite jazz player", "intent": "play_music"}
+{"sentence": "whats ten percent off forty dollars", "intent": "qa_maths"}
+{"sentence": "navigation search", "intent": "transport_query"}
+{"sentence": "delete my dinner tomorrow", "intent": "calendar_remove"}
+{"sentence": "where is the venue in which the marriage of tom is going to take place", "intent": "calendar_query"}
+{"sentence": "please remove that event", "intent": "calendar_remove"}
+{"sentence": "search for more songs from the band", "intent": "play_music"}
+{"sentence": "schedule taxi pickup for monday at noon", "intent": "transport_taxi"}
+{"sentence": "is there a traffic jam on my route", "intent": "transport_traffic"}
+{"sentence": "tweet kohls about the cleanliness of their store", "intent": "social_post"}
+{"sentence": "delete from playlist my old english songs list", "intent": "lists_remove"}
+{"sentence": "yes i like to save opinion on song playing and which player support that song", "intent": "music_likeness"}
+{"sentence": "olly change the lighting to blue", "intent": "iot_hue_lightchange"}
+{"sentence": "please raise the light i am not comfortable at this", "intent": "iot_hue_lightup"}
+{"sentence": "do i have anything set for the fourth of july this year", "intent": "calendar_query"}
+{"sentence": "what are my plans for the month of may", "intent": "calendar_query"}
+{"sentence": "hey cancel all my other meetings and calls for second march as it is jim's birthday tag it as an event in your calendar", "intent": "calendar_set"}
+{"sentence": "respond to my email from bob letting them know i'll see them tomorrow", "intent": "email_sendemail"}
+{"sentence": "how many square miles is the average country on earth", "intent": "qa_factoid"}
+{"sentence": "what events are upcoming today", "intent": "calendar_query"}
+{"sentence": "please play only sad song in music player", "intent": "play_music"}
+{"sentence": "what is elvis favorite ride", "intent": "qa_factoid"}
+{"sentence": "what's a parsec", "intent": "qa_factoid"}
+{"sentence": "delete to do list", "intent": "lists_remove"}
+{"sentence": "get rid of tax list from nineteen ninety", "intent": "lists_remove"}
+{"sentence": "i need to confirm all meetings for today can the invite person", "intent": "calendar_query"}
+{"sentence": "set a notification for three two and one hours before next week's english final", "intent": "calendar_set"}
+{"sentence": "list all train times to ny", "intent": "transport_query"}
+{"sentence": "hey google play some jazz music for me", "intent": "play_music"}
+{"sentence": "olly how many meetings did mahatma gandhi undertake", "intent": "qa_factoid"}
+{"sentence": "remind this event in future", "intent": "calendar_set"}
+{"sentence": "tell me about this week's weather", "intent": "weather_query"}
+{"sentence": "tell me what the product of eighteen and thirty one is", "intent": "qa_maths"}
+{"sentence": "has cassie sent me any emails about tom", "intent": "email_query"}
+{"sentence": "where are pyramids located", "intent": "qa_factoid"}
+{"sentence": "i like music", "intent": "music_likeness"}
+{"sentence": "cancel alarm", "intent": "alarm_remove"}
+{"sentence": "inform me on the items on the list", "intent": "lists_query"}
+{"sentence": "add bob to my list of contacts", "intent": "lists_createoradd"}
+{"sentence": "definition of velocity", "intent": "qa_definition"}
+{"sentence": "is it any ones birthday", "intent": "calendar_query"}
+{"sentence": "show latest news", "intent": "news_query"}
+{"sentence": "are there any new emails in outlook", "intent": "email_query"}
+{"sentence": "fastest route to turiellos", "intent": "transport_query"}
+{"sentence": "tell me the profession of celebrity", "intent": "qa_factoid"}
+{"sentence": "make the room light blue", "intent": "iot_hue_lightchange"}
+{"sentence": "email chelsea", "intent": "email_sendemail"}
+{"sentence": "set wake up thursday seven am", "intent": "alarm_set"}
+{"sentence": "book me a train ticket to barcelona please", "intent": "transport_ticket"}
+{"sentence": "i want to know today's weather", "intent": "weather_query"}
+{"sentence": "order a takeaway", "intent": "takeaway_order"}
+{"sentence": "what is the forecast for the week", "intent": "weather_query"}
+{"sentence": "i need some rap", "intent": "play_music"}
+{"sentence": "did i email tom on the subject of gun control", "intent": "email_query"}
+{"sentence": "remove the appointment with george adams from my calendar", "intent": "calendar_remove"}
+{"sentence": "will there be a fall in temperature by tonight", "intent": "weather_query"}
+{"sentence": "post the message now", "intent": "social_post"}
+{"sentence": "please add this email to my contacts", "intent": "email_addcontact"}
+{"sentence": "please check my mail", "intent": "email_query"}
+{"sentence": "during the timeframe of february one and march sixteen what meetings occurred", "intent": "calendar_query"}
+{"sentence": "can you tell me the times the train leaves for chicago", "intent": "transport_query"}
+{"sentence": "read me the latest headlines from nytimescom", "intent": "news_query"}
+{"sentence": "play the oldies station", "intent": "play_radio"}
+{"sentence": "am i going to be able to mow the grass this evening", "intent": "weather_query"}
+{"sentence": "check recent to do list", "intent": "lists_query"}
+{"sentence": "please note i like jazz and hate disco", "intent": "music_likeness"}
+{"sentence": "could you please help me in listening to the radio", "intent": "play_radio"}
+{"sentence": "cancel my plans to pick up my parents from the airport", "intent": "calendar_remove"}
+{"sentence": "what is going on on december fourth", "intent": "calendar_query"}
+{"sentence": "how do i start the robot vacuum cleaner", "intent": "iot_cleaning"}
+{"sentence": "please repeat my shopping list", "intent": "lists_query"}
+{"sentence": "weather in paris", "intent": "weather_query"}
+{"sentence": "remind me the day before my car is due", "intent": "calendar_set"}
+{"sentence": "what is todays weather", "intent": "weather_query"}
+{"sentence": "will it be raining on thursday", "intent": "weather_query"}
+{"sentence": "what happened to the dow jones today", "intent": "qa_stock"}
+{"sentence": "daily news", "intent": "news_query"}
+{"sentence": "i need some details about bruce lee please assist", "intent": "qa_factoid"}
+{"sentence": "remind me please", "intent": "calendar_set"}
+{"sentence": "where did amal clooney go to college", "intent": "qa_factoid"}
+{"sentence": "what is a caftan", "intent": "qa_definition"}
+{"sentence": "switch wemo plug socket off", "intent": "iot_wemo_off"}
+{"sentence": "is there anything important happening on social media", "intent": "social_query"}
+{"sentence": "please make the lights natural", "intent": "iot_hue_lightchange"}
+{"sentence": "please play clash of clans", "intent": "play_game"}
+{"sentence": "what is the birth year of barack obama", "intent": "qa_factoid"}
+{"sentence": "what is the traffic situation at the bazaar highway", "intent": "transport_traffic"}
+{"sentence": "tell me what's going on with facebook", "intent": "social_query"}
+{"sentence": "turn office lights off", "intent": "iot_hue_lightoff"}
+{"sentence": "when's mark lanegan's next album out", "intent": "qa_factoid"}
+{"sentence": "can you remind me to take the garbage out on tuesday", "intent": "calendar_set"}
+{"sentence": "tweet complain @comcast", "intent": "social_post"}
+{"sentence": "remind me to check the stew at six o'clock", "intent": "calendar_set"}
+{"sentence": "what is the birthday of hemingway", "intent": "qa_factoid"}
+{"sentence": "hey check email", "intent": "email_query"}
+{"sentence": "set my calendar to remind me to buy groceries every friday", "intent": "calendar_set"}
+{"sentence": "what time does the first metrolink arrive in the morning", "intent": "transport_query"}
+{"sentence": "describe the heart stone card game", "intent": "qa_definition"}
+{"sentence": "search the item", "intent": "lists_createoradd"}
+{"sentence": "please negative response tweet on daikin service", "intent": "social_post"}
+{"sentence": "tell me about the latest political news", "intent": "news_query"}
+{"sentence": "send email to joe@aol dot com", "intent": "email_sendemail"}
+{"sentence": "tell me all about hurricane", "intent": "qa_definition"}
+{"sentence": "please tweet @pizzahut i've been waiting for my delivery for now #nothappy", "intent": "social_post"}
+{"sentence": "email donna plans for today", "intent": "email_sendemail"}
+{"sentence": "where is laos located", "intent": "qa_factoid"}
+{"sentence": "i want reggae", "intent": "play_music"}
+{"sentence": "news of the train wreck", "intent": "news_query"}
+{"sentence": "add new item to list", "intent": "lists_createoradd"}
+{"sentence": "what artist is this", "intent": "music_query"}
+{"sentence": "how many minutes do i need to wait to pick up my food from china on the go", "intent": "takeaway_query"}
+{"sentence": "let's have the lights blue", "intent": "iot_hue_lightchange"}
+{"sentence": "play pandora nineties dance party", "intent": "play_music"}
+{"sentence": "it's dirty here make some noise", "intent": "iot_cleaning"}
+{"sentence": "give me the description about smartphone", "intent": "qa_definition"}
+{"sentence": "play a game of contra as a second player", "intent": "play_game"}
+{"sentence": "remind me tonight to pick up my dry cleaning at eight pm", "intent": "calendar_set"}
+{"sentence": "book me a taxi to leith in half an hour", "intent": "transport_taxi"}
+{"sentence": "will i need to wear a jacket next wednesday", "intent": "weather_query"}
+{"sentence": "i want to hear the latest world news from today", "intent": "news_query"}
+{"sentence": "i want you to play bohemian rhapsody for me", "intent": "play_music"}
+{"sentence": "turn on some npr and play them out of my speakers", "intent": "play_radio"}
+{"sentence": "remind me of the event in my calendar", "intent": "calendar_set"}
+{"sentence": "please play songs i've purchased and favorited", "intent": "play_music"}
+{"sentence": "just add a new email in my contacts from michael", "intent": "email_addcontact"}
+{"sentence": "initialize the robot vacuum", "intent": "iot_cleaning"}
+{"sentence": "open tasks delete future events", "intent": "calendar_remove"}
+{"sentence": "play my shuffled playlist please", "intent": "play_music"}
+{"sentence": "define speaker", "intent": "qa_definition"}
+{"sentence": "hey what will be the predicted weather for tomorrow", "intent": "weather_query"}
+{"sentence": "email to new contact", "intent": "email_sendemail"}
+{"sentence": "what kind of weather are they having in orange tx right now", "intent": "weather_query"}
+{"sentence": "what is dolly parton's birthday", "intent": "qa_factoid"}
+{"sentence": "give the definition of motivation", "intent": "qa_definition"}
+{"sentence": "hey order two wings with french fries from the chinese food store", "intent": "takeaway_order"}
+{"sentence": "olly cancel all soccer practice alarms", "intent": "alarm_remove"}
+{"sentence": "add my car payment on the twelfth in my calendar", "intent": "calendar_set"}
+{"sentence": "what's the weather for my location this week", "intent": "weather_query"}
+{"sentence": "add this person's email", "intent": "email_addcontact"}
+{"sentence": "what time does the train to place leave", "intent": "transport_query"}
+{"sentence": "what is the trending now", "intent": "news_query"}
+{"sentence": "power up the plug socket one", "intent": "iot_wemo_on"}
+{"sentence": "switch on the roomba", "intent": "iot_cleaning"}
+{"sentence": "can you play rock music for the next hour", "intent": "play_music"}
+{"sentence": "remind me everyday at two pm for lunch", "intent": "calendar_set"}
+{"sentence": "set me a meeting next tuesday at eleven am with jesse", "intent": "calendar_set"}
+{"sentence": "check to see if i have any new emails from my dad", "intent": "email_query"}
+{"sentence": "what is happening after one and before three pm", "intent": "calendar_query"}
+{"sentence": "please check for new email", "intent": "email_query"}
+{"sentence": "remove my car payment on my calendar", "intent": "lists_remove"}
+{"sentence": "will there be rain tomorrow in rome", "intent": "weather_query"}
+{"sentence": "latest new on international women's day", "intent": "news_query"}
+{"sentence": "next play summer lovin", "intent": "play_music"}
+{"sentence": "let me hear my list", "intent": "lists_query"}
+{"sentence": "remind me my mom's birthday a week before", "intent": "calendar_set"}
+{"sentence": "brighten the lights in the hallway", "intent": "iot_hue_lightup"}
+{"sentence": "add to list", "intent": "lists_createoradd"}
+{"sentence": "go to channel one hundred and six point nine", "intent": "play_radio"}
+{"sentence": "please play the radio gaga song", "intent": "play_music"}
+{"sentence": "tweet esurance and tell them they suck", "intent": "social_post"}
+{"sentence": "hey olly can you please make me a creamy coffee", "intent": "iot_coffee"}
+{"sentence": "is there valet service at the event", "intent": "calendar_query"}
+{"sentence": "who is the current prime minister of russia", "intent": "qa_factoid"}
+{"sentence": "what is the square root of nine", "intent": "qa_maths"}
+{"sentence": "send this email to reply to the latest emails", "intent": "email_sendemail"}
+{"sentence": "i am having a meeting on tomorrow set it", "intent": "calendar_set"}
+{"sentence": "find food and order", "intent": "takeaway_order"}
+{"sentence": "add new email address and send email", "intent": "email_sendemail"}
+{"sentence": "i need to something every monday set a reminder for it", "intent": "calendar_set"}
+{"sentence": "show me tomorrows weather in this area", "intent": "weather_query"}
+{"sentence": "set a reminder for my daughters birthday", "intent": "calendar_set"}
+{"sentence": "brighten up the lighting", "intent": "iot_hue_lightup"}
+{"sentence": "my trip to goa photo post it on instagram", "intent": "social_post"}
+{"sentence": "mark today as the start of my diet", "intent": "calendar_set"}
+{"sentence": "play the music", "intent": "play_music"}
+{"sentence": "play my rock playlist", "intent": "play_music"}
+{"sentence": "did ben's email have an attachment", "intent": "email_query"}
+{"sentence": "will i need sunscreen later", "intent": "weather_query"}
+{"sentence": "please start the vacuum cleaner", "intent": "iot_cleaning"}
+{"sentence": "send a funny message to all of my friends", "intent": "social_post"}
+{"sentence": "send an email to grandma saying we are dropping by on saturday see you then", "intent": "email_sendemail"}
+{"sentence": "could you please play temple run game for me", "intent": "play_game"}
+{"sentence": "please make me a cup of coffee", "intent": "iot_coffee"}
+{"sentence": "do i have any new emails in my inbox today", "intent": "email_query"}
+{"sentence": "which song is this one", "intent": "music_query"}
+{"sentence": "what is twelve divided by four", "intent": "qa_maths"}
+{"sentence": "hi can you please turn lower the lights", "intent": "iot_hue_lightdim"}
+{"sentence": "is there any new information regarding the mexican american border wall", "intent": "news_query"}
+{"sentence": "send tech news", "intent": "news_query"}
+{"sentence": "scratch that one from the list", "intent": "lists_remove"}
+{"sentence": "yes or no tomorrow's temperature is to be hot", "intent": "weather_query"}
+{"sentence": "set a reminder in one hour for my bread to bake", "intent": "calendar_set"}
+{"sentence": "on friday please put dentist appointment at three", "intent": "calendar_set"}
+{"sentence": "i need an alarm set for five hundred and thirty am tomorrow", "intent": "alarm_set"}
+{"sentence": "fast me the news of academy awards", "intent": "news_query"}
+{"sentence": "show me the latest news from the guardian", "intent": "news_query"}
+{"sentence": "turn off overhead light", "intent": "iot_hue_lightoff"}
+{"sentence": "turn on my playlist and play third song in the queue", "intent": "play_music"}
+{"sentence": "delete event from calendar", "intent": "calendar_remove"}
+{"sentence": "could you please email john saying i'm on leave", "intent": "email_sendemail"}
+{"sentence": "cancel the breakfast at tiffany's house", "intent": "calendar_remove"}
+{"sentence": "turn off smart plug socket", "intent": "iot_wemo_off"}
+{"sentence": "delete all events", "intent": "calendar_remove"}
+{"sentence": "remove my dentist's appointment from today's schedule", "intent": "calendar_remove"}
+{"sentence": "find the list", "intent": "lists_query"}
+{"sentence": "play romantic music in nash fm ninety two point seven", "intent": "play_radio"}
+{"sentence": "recite the schedules of the list", "intent": "lists_query"}
+{"sentence": "play my favorites", "intent": "play_music"}
+{"sentence": "are there any meetings set for next wednesday", "intent": "calendar_query"}
+{"sentence": "tweet something for me", "intent": "social_post"}
+{"sentence": "how many people are attending my next meeting", "intent": "calendar_query"}
+{"sentence": "will the temperature stay about the same or is it going to get colder", "intent": "weather_query"}
+{"sentence": "what are my available lists", "intent": "lists_query"}
+{"sentence": "does louie's do take out", "intent": "takeaway_query"}
+{"sentence": "one plus two equal", "intent": "qa_maths"}
+{"sentence": "check for emails from my employer", "intent": "email_query"}
+{"sentence": "disable my okug", "intent": "iot_wemo_off"}
+{"sentence": "do i have a date on friday", "intent": "calendar_query"}
+{"sentence": "where jackie chan currently live", "intent": "qa_factoid"}
+{"sentence": "remind", "intent": "calendar_set"}
+{"sentence": "i want a lower light", "intent": "iot_hue_lightdim"}
+{"sentence": "reset my locations list", "intent": "lists_remove"}
+{"sentence": "make a repeating reminder for this calendar event", "intent": "calendar_set"}
+{"sentence": "describe item xy", "intent": "qa_definition"}
+{"sentence": "play nine hundred and eighty nine the radio station", "intent": "play_radio"}
+{"sentence": "include mike and jack to festival calendar", "intent": "calendar_set"}
+{"sentence": "how much would it cost to buy stock in apple", "intent": "qa_stock"}
+{"sentence": "please turn on my balcony lights", "intent": "iot_hue_lighton"}
+{"sentence": "olly book me a ticket to paris on eurostar this weekend", "intent": "transport_ticket"}
+{"sentence": "social media", "intent": "social_query"}
+{"sentence": "please summarize the latest george r r martin ice and fire book", "intent": "qa_factoid"}
+{"sentence": "iphone seven description", "intent": "qa_definition"}
+{"sentence": "send email to tim@hotmail dot com", "intent": "email_sendemail"}
+{"sentence": "one thousand two hundred and thirty pm already you will have a meeting in ten mins", "intent": "calendar_query"}
+{"sentence": "what is the largest desk", "intent": "qa_definition"}
+{"sentence": "email karen about the budget meeting", "intent": "email_sendemail"}
+{"sentence": "what does the email say that was sent thirty minutes ago from mom", "intent": "email_query"}
+{"sentence": "display recent email from john", "intent": "email_query"}
+{"sentence": "email notifications", "intent": "email_query"}
+{"sentence": "can you make some coffee", "intent": "iot_coffee"}
+{"sentence": "what is an electronic emissions system", "intent": "qa_definition"}
+{"sentence": "set first week of june as holiday in my calendar", "intent": "calendar_set"}
+{"sentence": "explain the geographical location of india", "intent": "qa_factoid"}
+{"sentence": "play me this mornings show from one hundred and one point nine", "intent": "play_radio"}
+{"sentence": "alarm settings", "intent": "alarm_query"}
+{"sentence": "meeting reminder", "intent": "calendar_set"}
+{"sentence": "who is celebrity", "intent": "qa_factoid"}
+{"sentence": "order a pizza with sausage from domino's", "intent": "takeaway_order"}
+{"sentence": "are there any updates in regard to the election", "intent": "news_query"}
+{"sentence": "great song for the commute", "intent": "music_likeness"}
+{"sentence": "should i bring an umbrella tomorrow", "intent": "weather_query"}
+{"sentence": "buddy adding event in your calendar", "intent": "calendar_set"}
+{"sentence": "what new email says", "intent": "email_query"}
+{"sentence": "please play radio station one right now", "intent": "play_radio"}
+{"sentence": "what is the make up of the chair", "intent": "qa_factoid"}
+{"sentence": "how is the stock going in general", "intent": "qa_stock"}
+{"sentence": "remind me to wash the windows", "intent": "calendar_set"}
+{"sentence": "what going on", "intent": "social_query"}
+{"sentence": "open saga", "intent": "play_game"}
+{"sentence": "where is yosemite park", "intent": "qa_factoid"}
+{"sentence": "remind me to get the oil changed", "intent": "calendar_set"}
+{"sentence": "just let me know next week's weather in california", "intent": "email_sendemail"}
+{"sentence": "tweet to apple about non receipt of iphone i sent for repairs last week", "intent": "social_post"}
+{"sentence": "please turn on the wemo plug socket", "intent": "iot_wemo_on"}
+{"sentence": "weather report now", "intent": "weather_query"}
+{"sentence": "what's on the radio right now", "intent": "music_query"}
+{"sentence": "what is the current traffic situation", "intent": "transport_traffic"}
+{"sentence": "make an order for noodles one pack make it as takeaway order", "intent": "takeaway_order"}
+{"sentence": "prepare a cup of coffee for me", "intent": "iot_coffee"}
+{"sentence": "what time is my next appointment", "intent": "calendar_query"}
+{"sentence": "reply this mail", "intent": "email_sendemail"}
+{"sentence": "tell me the funniest joke that was ever told", "intent": "general_joke"}
+{"sentence": "remove new year from calendar", "intent": "calendar_remove"}
+{"sentence": "please remove this event from my calendar", "intent": "calendar_remove"}
+{"sentence": "how tall is mount everest", "intent": "qa_factoid"}
+{"sentence": "what is the weather going to be like on march twentieth two thousand and seventeen", "intent": "weather_query"}
+{"sentence": "increase the brightness in this room", "intent": "iot_hue_lightup"}
+{"sentence": "brighten the light of hall", "intent": "iot_hue_lightup"}
+{"sentence": "what are my current list", "intent": "lists_query"}
+{"sentence": "olly tell me my alarms", "intent": "alarm_query"}
+{"sentence": "ok google delete eric's bday from the calendar", "intent": "calendar_remove"}
+{"sentence": "hello i want to turn off my wemo plug", "intent": "iot_wemo_off"}
+{"sentence": "show me the contents of the list", "intent": "lists_query"}
+{"sentence": "what else is missing in the diary", "intent": "lists_query"}
+{"sentence": "what did i put down already on the walmart list", "intent": "lists_query"}
+{"sentence": "compose a new email but i got a new address this time brandon at example dot com", "intent": "email_sendemail"}
+{"sentence": "tweet my current location", "intent": "social_post"}
+{"sentence": "beep when i get an email from john", "intent": "email_query"}
+{"sentence": "robot vacuum the living room now", "intent": "iot_cleaning"}
+{"sentence": "hey siri start an email to coworker", "intent": "email_sendemail"}
+{"sentence": "will you send a calendar invite out to james and alice for brunch at eleven am on tuesday", "intent": "calendar_set"}
+{"sentence": "look up the definition of blunder", "intent": "qa_definition"}
+{"sentence": "please remove the following list", "intent": "lists_remove"}
+{"sentence": "my coffee is cold please make more coffee", "intent": "iot_coffee"}
+{"sentence": "does pings do takeaway", "intent": "takeaway_query"}
+{"sentence": "what kinds of sunglasses are considered aviators", "intent": "qa_factoid"}
+{"sentence": "tweet at united airlines i'm angry you lost my bags", "intent": "social_post"}
+{"sentence": "please play the song every time i see you", "intent": "play_music"}
+{"sentence": "let's play my most played song list", "intent": "play_music"}
+{"sentence": "noodles one pack make it as takeaway", "intent": "takeaway_order"}
+{"sentence": "whats the weather like tomorrow", "intent": "weather_query"}
+{"sentence": "confirm my alarm settings", "intent": "alarm_query"}
+{"sentence": "play love songs", "intent": "play_music"}
+{"sentence": "what are today's sports news", "intent": "news_query"}
+{"sentence": "help is to be sent only to jane", "intent": "email_sendemail"}
+{"sentence": "play any song by joe prsaise", "intent": "play_music"}
+{"sentence": "tell my meetings for tomorrow morning", "intent": "calendar_query"}
+{"sentence": "can you tell me how many stomachs a cow has", "intent": "qa_factoid"}
+{"sentence": "get me latest updates from facebook", "intent": "social_query"}
+{"sentence": "remind me about the meeting tomorrow one hour before", "intent": "calendar_set"}
+{"sentence": "what are the upcoming concerts in dallas", "intent": "calendar_query"}
+{"sentence": "let's go through all pending reminders", "intent": "calendar_query"}
+{"sentence": "where is mary's birthday party being held", "intent": "calendar_query"}
+{"sentence": "find out what song this is and tell me the name", "intent": "music_query"}
+{"sentence": "has anyone follow me today on twitter today", "intent": "social_query"}
+{"sentence": "what is terranova stock going for", "intent": "qa_stock"}
+{"sentence": "turn my bedroom lights off", "intent": "iot_hue_lightoff"}
+{"sentence": "please play thirteen", "intent": "play_music"}
+{"sentence": "what is the timing of bagmati express", "intent": "transport_query"}
+{"sentence": "turn the kitchen lights off", "intent": "iot_hue_lightoff"}
+{"sentence": "can you describe a credit card", "intent": "qa_definition"}
+{"sentence": "schedule a sales meeting for wednesday at eleven am", "intent": "calendar_set"}
+{"sentence": "stream poker face by lady gaga", "intent": "play_music"}
+{"sentence": "tell me about the cheapest flight fares to nj today", "intent": "transport_ticket"}
+{"sentence": "order a twelve piece honey mustard wing combo with seasonimg altnon the fries and a sprite as the drink", "intent": "takeaway_order"}
+{"sentence": "alert me at the time of the event", "intent": "calendar_set"}
+{"sentence": "we should play nfs at high speed", "intent": "play_game"}
+{"sentence": "cancel everything on my calendar", "intent": "calendar_remove"}
+{"sentence": "set my alarm for twelve pm", "intent": "alarm_set"}
+{"sentence": "to compare in people", "intent": "qa_factoid"}
+{"sentence": "i want to hear snow by red hot chili peppers", "intent": "play_music"}
+{"sentence": "show me the latest news from the un", "intent": "news_query"}
+{"sentence": "wake me at six am thursday so i have time for the meeting", "intent": "calendar_set"}
+{"sentence": "create a meeting event in my calendar", "intent": "calendar_set"}
+{"sentence": "open games", "intent": "play_game"}
+{"sentence": "what are the traffic conditions on the one hundred and one", "intent": "transport_traffic"}
+{"sentence": "play me in tic tac toe", "intent": "play_game"}
+{"sentence": "can you please add an item to my grocery list", "intent": "lists_createoradd"}
+{"sentence": "tell me the largest ocean in the world", "intent": "qa_factoid"}
+{"sentence": "set a meeting event reminder with mona on tuesday", "intent": "calendar_set"}
+{"sentence": "raise the lights", "intent": "iot_hue_lightup"}
+{"sentence": "is it friday", "intent": "calendar_query"}
+{"sentence": "what are the headlines on cnn", "intent": "news_query"}
+{"sentence": "please power down", "intent": "iot_wemo_off"}
+{"sentence": "will i need sunscreen this afternoon", "intent": "weather_query"}
+{"sentence": "launch game", "intent": "play_game"}
+{"sentence": "remove anniversary event from my calendar", "intent": "calendar_remove"}
+{"sentence": "what's my schedule today", "intent": "calendar_query"}
+{"sentence": "go to the washington post website", "intent": "news_query"}
+{"sentence": "play let me love you by ariana grande", "intent": "play_music"}
+{"sentence": "olly what do i have planned next", "intent": "calendar_query"}
+{"sentence": "do i have anything going on", "intent": "calendar_query"}
+{"sentence": "next play justin bieber's sorry", "intent": "play_music"}
+{"sentence": "play scrabble with me", "intent": "play_game"}
+{"sentence": "please play only ar rehman's songs", "intent": "play_music"}
+{"sentence": "send an email to rohit saying i am busy tomorrow", "intent": "email_sendemail"}
+{"sentence": "olly turn on the coffee machine to make me some coffee", "intent": "iot_coffee"}
+{"sentence": "google train tickets to washington dc", "intent": "transport_ticket"}
+{"sentence": "can you upload my latest selfie in my facebook account", "intent": "social_post"}
+{"sentence": "call city cab to airport", "intent": "transport_taxi"}
+{"sentence": "is there any events planned for the next three months", "intent": "calendar_query"}
+{"sentence": "open tweet to apple that my iphone's battery is always drained", "intent": "social_post"}
+{"sentence": "i'd like some red lighting", "intent": "iot_hue_lightchange"}
+{"sentence": "what time is my doctor appointment on march thirty first", "intent": "calendar_query"}
+{"sentence": "listen to my favorites", "intent": "play_music"}
+{"sentence": "please show me the list that i have", "intent": "lists_query"}
+{"sentence": "new list", "intent": "lists_createoradd"}
+{"sentence": "please send an email to uncle john with the following yes i can make it", "intent": "email_sendemail"}
+{"sentence": "is the weather going to be nice this weekend", "intent": "weather_query"}
+{"sentence": "olly where is my food", "intent": "takeaway_query"}
+{"sentence": "facebook", "intent": "social_query"}
+{"sentence": "remove birthday from calendar", "intent": "calendar_remove"}
+{"sentence": "how long until my order is ready", "intent": "takeaway_query"}
+{"sentence": "send an email to peter and ask him how is he now can i do something to help him", "intent": "email_sendemail"}
+{"sentence": "what is the weather this friday", "intent": "weather_query"}
+{"sentence": "find songs from my big band playlist", "intent": "play_music"}
+{"sentence": "is steph curry married", "intent": "qa_factoid"}
+{"sentence": "are storms likely today", "intent": "weather_query"}
+{"sentence": "let's play music hits", "intent": "play_radio"}
+{"sentence": "new updates", "intent": "social_query"}
+{"sentence": "please create new list", "intent": "lists_createoradd"}
+{"sentence": "what are my pending tasks", "intent": "calendar_query"}
+{"sentence": "send mom an email now", "intent": "email_sendemail"}
+{"sentence": "lets play battleship", "intent": "play_game"}
+{"sentence": "tweet about cold pizza to papa johns", "intent": "social_post"}
+{"sentence": "i've cancelled the order placed at mcd did it go through", "intent": "takeaway_query"}
+{"sentence": "call me a taxi olly", "intent": "transport_taxi"}
+{"sentence": "read what is on my list", "intent": "lists_query"}
+{"sentence": "please update my grocery list with one gallon of two percent milk", "intent": "lists_createoradd"}
+{"sentence": "please start vacuum cleaner", "intent": "iot_cleaning"}
+{"sentence": "who is this on the radio", "intent": "music_query"}
+{"sentence": "play bhuli bisri yaadien program on ninety one point three fm", "intent": "play_radio"}
+{"sentence": "remind me about my schedule for the afternoon", "intent": "calendar_set"}
+{"sentence": "let me know when you hear about france", "intent": "news_query"}
+{"sentence": "the event will include walter and gemma", "intent": "calendar_set"}
+{"sentence": "what is the ten day forecast", "intent": "weather_query"}
+{"sentence": "check email about my job", "intent": "email_query"}
+{"sentence": "reply to johns email", "intent": "email_sendemail"}
+{"sentence": "delete the last phrase", "intent": "lists_remove"}
+{"sentence": "do i have anything planned for the twenty first", "intent": "calendar_query"}
+{"sentence": "play classic rock", "intent": "play_music"}
+{"sentence": "away off from list", "intent": "lists_remove"}
+{"sentence": "add a reminder of a conference for tomorrow in new york", "intent": "calendar_set"}
+{"sentence": "tell me the news about share market ups and downs", "intent": "news_query"}
+{"sentence": "olly find the nearest uber", "intent": "transport_taxi"}
+{"sentence": "mark april twenty as my brother's birthday", "intent": "calendar_set"}
+{"sentence": "cnn headlines", "intent": "news_query"}
+{"sentence": "add spent five dollars in my expenses list", "intent": "lists_createoradd"}
+{"sentence": "start celine dion songs", "intent": "play_music"}
+{"sentence": "where in dc is that meeting at one pm on friday", "intent": "calendar_query"}
+{"sentence": "post this to my facebook lol", "intent": "social_post"}
+{"sentence": "which pole is colder south or north", "intent": "qa_factoid"}
+{"sentence": "i want to make a note on my calendar for the event tomorrow at the library", "intent": "calendar_set"}
+{"sentence": "what is the funniest joke ever", "intent": "general_joke"}
+{"sentence": "show me my calendar event this friday afternoon", "intent": "calendar_query"}
+{"sentence": "give me an update on the election in one hour", "intent": "calendar_set"}
+{"sentence": "what date is it", "intent": "calendar_query"}
+{"sentence": "play the song i listen to the most", "intent": "play_music"}
+{"sentence": "start some music play the radio", "intent": "play_radio"}
+{"sentence": "schedule a lunch meeting with brent on wednesday at noon", "intent": "calendar_set"}
+{"sentence": "check emails", "intent": "email_query"}
+{"sentence": "make a coffee please", "intent": "iot_coffee"}
+{"sentence": "please define forensic", "intent": "qa_definition"}
+{"sentence": "delete last item listed", "intent": "lists_remove"}
+{"sentence": "have i received any emails from jeffrey burnette", "intent": "email_query"}
+{"sentence": "book a train ticket from here to charleston west virginia at eight am today", "intent": "transport_ticket"}
+{"sentence": "play my midnight love playlist", "intent": "play_music"}
+{"sentence": "what's my upcoming week look like", "intent": "calendar_query"}
+{"sentence": "have i received any emails in the last ten minutes", "intent": "email_query"}
+{"sentence": "show me the dim colour", "intent": "iot_hue_lightdim"}
+{"sentence": "does pizza hut have delivery", "intent": "takeaway_query"}
+{"sentence": "what song is on the radio", "intent": "music_query"}
+{"sentence": "which ocean touches at our continent", "intent": "qa_factoid"}
+{"sentence": "cancel my seven am alarm", "intent": "alarm_remove"}
+{"sentence": "make a reminder of location a on calendar", "intent": "calendar_set"}
+{"sentence": "send a tweet about sonys volume issues", "intent": "social_post"}
+{"sentence": "play and shuffle all slow music songs", "intent": "play_music"}
+{"sentence": "call taxi", "intent": "transport_taxi"}
+{"sentence": "send an email to my assistant clara to cancel all appointments for tomorrow", "intent": "email_sendemail"}
+{"sentence": "what is six divided by two", "intent": "qa_maths"}
+{"sentence": "summarise week's weather details", "intent": "weather_query"}
+{"sentence": "add practice to calendar on feb four at king's park at two pm", "intent": "calendar_set"}
+{"sentence": "read me the latest international news", "intent": "news_query"}
+{"sentence": "turn down the lights to medium", "intent": "iot_hue_lightoff"}
+{"sentence": "turn off my wemo socket", "intent": "iot_wemo_off"}
+{"sentence": "please check my mails", "intent": "email_query"}
+{"sentence": "give me the description of a television circuit", "intent": "qa_definition"}
+{"sentence": "please remind me to call mom in half an hour", "intent": "calendar_set"}
+{"sentence": "do i have any new friend requests", "intent": "social_query"}
+{"sentence": "cancel all my appointments", "intent": "calendar_remove"}
+{"sentence": "what is twelve plus one hundred and ninety six", "intent": "qa_maths"}
+{"sentence": "can you make the lights go out", "intent": "iot_hue_lightoff"}
+{"sentence": "i don't have enough money to buy the nintendo switch right now can you please remove it on my amazon wishlist", "intent": "lists_remove"}
+{"sentence": "i would like the like in the kitchen to be a different color", "intent": "iot_hue_lightchange"}
+{"sentence": "remind me to contact old friends that i have not talked with in six months before they pass", "intent": "calendar_set"}
+{"sentence": "my friend john has sent me a invitation card to his newly bought home say thanks to him in his mail id", "intent": "email_sendemail"}
+{"sentence": "play kiss fm for me", "intent": "play_radio"}
+{"sentence": "let's play", "intent": "play_game"}
+{"sentence": "please send an email to cassy who is there on my family and friend list", "intent": "email_sendemail"}
+{"sentence": "what is the latest news on donald trump", "intent": "news_query"}
+{"sentence": "i had a problem with my burger can you tweet bk", "intent": "social_post"}
+{"sentence": "this is a good tune please notate file accordingly", "intent": "music_likeness"}
+{"sentence": "rap", "intent": "play_music"}
+{"sentence": "is there a meeting on my calendar this afternoon", "intent": "calendar_query"}
+{"sentence": "who is the singer of hotel california", "intent": "music_query"}
+{"sentence": "what time is the black tie gala dinner supposed to begin", "intent": "calendar_query"}
+{"sentence": "what is on the agenda for the four pm meeting with joe", "intent": "calendar_query"}
+{"sentence": "set alarm at nine am on next sunday", "intent": "alarm_set"}
+{"sentence": "initiate polling for new email", "intent": "email_query"}
+{"sentence": "are there morning shows available", "intent": "calendar_query"}
+{"sentence": "is my alarm set for tomorrow morning", "intent": "alarm_query"}
+{"sentence": "i'm going to sleep now", "intent": "iot_hue_lightoff"}
+{"sentence": "enable smart socket", "intent": "iot_wemo_on"}
+{"sentence": "help me start my kitchen list", "intent": "lists_createoradd"}
+{"sentence": "give me today's calendar events after six pm", "intent": "calendar_query"}
+{"sentence": "remind me about the party tomorrow", "intent": "calendar_set"}
+{"sentence": "who am i meeting today", "intent": "calendar_query"}
+{"sentence": "when did elvis die", "intent": "qa_factoid"}
+{"sentence": "give me the time of the events", "intent": "calendar_query"}
+{"sentence": "what reminders do i have", "intent": "calendar_query"}
+{"sentence": "begin a new list", "intent": "lists_createoradd"}
+{"sentence": "please tell me the news headlines", "intent": "news_query"}
+{"sentence": "please turn on my coffee pot", "intent": "iot_coffee"}
+{"sentence": "send an email to john asking him what time works for the meeting", "intent": "email_sendemail"}
+{"sentence": "tweet complaint to at", "intent": "social_post"}
+{"sentence": "remind me about the meeting tomorrow at six", "intent": "calendar_set"}
+{"sentence": "play radio mirchi for me", "intent": "play_radio"}
+{"sentence": "i love this song", "intent": "music_likeness"}
+{"sentence": "can i get delilah on the radio in the bedroom", "intent": "play_radio"}
+{"sentence": "remind me to call mom every tuesday at ten am", "intent": "calendar_set"}
+{"sentence": "plant based news", "intent": "news_query"}
+{"sentence": "play the song title", "intent": "play_music"}
+{"sentence": "add bananas to my shopping list", "intent": "lists_createoradd"}
+{"sentence": "what is the root of six hundred and twenty five", "intent": "qa_maths"}
+{"sentence": "i need this email sent now", "intent": "email_sendemail"}
+{"sentence": "house change all lights to blue", "intent": "iot_hue_lightchange"}
+{"sentence": "please set this date to repeat", "intent": "calendar_set"}
+{"sentence": "where does sophia vergara live", "intent": "qa_factoid"}
+{"sentence": "open the folder app please", "intent": "takeaway_order"}
+{"sentence": "is there any news olly", "intent": "news_query"}
+{"sentence": "add my opinion to this song great", "intent": "music_likeness"}
+{"sentence": "check my to do list", "intent": "lists_query"}
+{"sentence": "coffee", "intent": "iot_coffee"}
+{"sentence": "can they provide takeaway", "intent": "takeaway_query"}
+{"sentence": "my party planning", "intent": "calendar_query"}
+{"sentence": "open contacts", "intent": "email_addcontact"}
+{"sentence": "suffering consequences", "intent": "qa_definition"}
+{"sentence": "who takes less of duration of time for delivery", "intent": "takeaway_query"}
+{"sentence": "olly turn the news on", "intent": "news_query"}
+{"sentence": "please book a ticket of rajdhani express train from jaipur", "intent": "transport_ticket"}
+{"sentence": "trash the current list", "intent": "lists_remove"}
+{"sentence": "train ticket", "intent": "transport_ticket"}
+{"sentence": "what is scheduled on my calendar today", "intent": "calendar_query"}
+{"sentence": "i want to see the news", "intent": "news_query"}
+{"sentence": "what's a good joke", "intent": "general_joke"}
+{"sentence": "check my social networks", "intent": "social_query"}
+{"sentence": "play nineties hip hop", "intent": "play_music"}
+{"sentence": "show me the most recent emails", "intent": "email_query"}
+{"sentence": "please check my gmail for new mail", "intent": "email_query"}
+{"sentence": "remind me i take mom to the hairdresser's thursday at one thousand one hundred am", "intent": "calendar_set"}
+{"sentence": "will i need my snow boots this afternoon", "intent": "weather_query"}
+{"sentence": "play the latest rock songs having rating of four or above", "intent": "play_music"}
+{"sentence": "please remove my alarm", "intent": "alarm_remove"}
+{"sentence": "show me any emails received in the last hour", "intent": "email_query"}
+{"sentence": "what is the weather this week for miami", "intent": "weather_query"}
+{"sentence": "what is on my to do list", "intent": "lists_query"}
+{"sentence": "play chess", "intent": "play_game"}
+{"sentence": "play my radio station", "intent": "play_radio"}
+{"sentence": "olly anything else left on the list", "intent": "lists_query"}
+{"sentence": "put hamburger on my grocery list", "intent": "lists_createoradd"}
+{"sentence": "can you really see russia from alaska", "intent": "qa_factoid"}
+{"sentence": "what is a chair", "intent": "qa_definition"}
+{"sentence": "remove my appointment with my doctor on saturday please", "intent": "calendar_remove"}
+{"sentence": "upcoming events in calendar", "intent": "calendar_set"}
+{"sentence": "what's my schedule like today", "intent": "calendar_query"}
+{"sentence": "what is the weather condition in new york", "intent": "weather_query"}
+{"sentence": "remove my next scheduled appointment please", "intent": "calendar_remove"}
+{"sentence": "make a new alarm", "intent": "alarm_set"}
+{"sentence": "please rate current song as five stars", "intent": "music_likeness"}
+{"sentence": "play prairie home companion on the car radio", "intent": "play_radio"}
+{"sentence": "house can you make all the lights in the house blue", "intent": "iot_hue_lightchange"}
+{"sentence": "olly tweet walmart and tell them their customer service is horrible", "intent": "social_post"}
+{"sentence": "is this song ed sheeran", "intent": "music_query"}
+{"sentence": "tweet @", "intent": "social_post"}
+{"sentence": "play it again please", "intent": "play_music"}
+{"sentence": "has robert emails me yet", "intent": "email_query"}
+{"sentence": "tell me what the weather is doing in grand rapids mi right now", "intent": "weather_query"}
+{"sentence": "can you reply to charlotte that i am going to be busy with the projects for next three weeks", "intent": "email_sendemail"}
+{"sentence": "do you know the name of the song that is playing", "intent": "music_query"}
+{"sentence": "power off the wemo plug", "intent": "iot_wemo_off"}
+{"sentence": "start sirius xm radio channel", "intent": "play_radio"}
+{"sentence": "siri please turn the lights off in the bathroom", "intent": "iot_hue_lightoff"}
+{"sentence": "on my to dos remove mop kitchen", "intent": "lists_remove"}
+{"sentence": "will the temperature be higher than forty tomorrow", "intent": "weather_query"}
+{"sentence": "check for emails from steve", "intent": "email_query"}
+{"sentence": "user friendly", "intent": "news_query"}
+{"sentence": "define flabbergasted", "intent": "qa_definition"}
+{"sentence": "alexa start email", "intent": "email_sendemail"}
+{"sentence": "activate the roomba", "intent": "iot_cleaning"}
+{"sentence": "what is the traffic like now", "intent": "transport_traffic"}
+{"sentence": "tweet samsung and tell them to stop killing people with their products", "intent": "social_post"}
+{"sentence": "give me a weather report for las vegas", "intent": "weather_query"}
+{"sentence": "check my email for any new email from joe", "intent": "email_query"}
+{"sentence": "details on person", "intent": "qa_factoid"}
+{"sentence": "open google keep", "intent": "lists_query"}
+{"sentence": "please send an email to sally regarding tomorrows meeting", "intent": "email_sendemail"}
+{"sentence": "what's the week's forecast", "intent": "weather_query"}
+{"sentence": "whats the current weather", "intent": "weather_query"}
+{"sentence": "call an uberpool to get me at long island bar", "intent": "transport_taxi"}
+{"sentence": "remind me the wedding on time to buy a present", "intent": "calendar_set"}
+{"sentence": "add a lunch with mike", "intent": "calendar_set"}
+{"sentence": "wake me up at five am", "intent": "alarm_set"}
+{"sentence": "can you book an uber after i left for office", "intent": "transport_taxi"}
+{"sentence": "what's the latest news from cnn please", "intent": "news_query"}
+{"sentence": "please book train ticket from mumbai to sangli for tomorrow morning", "intent": "transport_ticket"}
+{"sentence": "what are the climatic conditions in that area", "intent": "qa_factoid"}
+{"sentence": "turn off porch light", "intent": "iot_hue_lightoff"}
+{"sentence": "tell me the current price of exxon mobil stock", "intent": "qa_stock"}
+{"sentence": "what is my next reminder", "intent": "calendar_query"}
+{"sentence": "what do i have scheduled for the nineteenth at two pm", "intent": "calendar_query"}
+{"sentence": "travel book a train ticket", "intent": "transport_ticket"}
+{"sentence": "train times from near me to location", "intent": "transport_query"}
+{"sentence": "what's the temperature outside", "intent": "weather_query"}
+{"sentence": "what is the wake up time for my alarm i have set for the flight this weekend", "intent": "alarm_query"}
+{"sentence": "inform my group that the new meeting date is tomorrow", "intent": "calendar_set"}
+{"sentence": "prepare email for susan", "intent": "email_sendemail"}
+{"sentence": "remind me to start getting ready by five pm please", "intent": "calendar_set"}
+{"sentence": "this new email should be added to my contact", "intent": "email_sendemail"}
+{"sentence": "keep me up to date with today's nba scores", "intent": "news_query"}
+{"sentence": "when does the f train run today", "intent": "transport_query"}
+{"sentence": "please get the coffee machine to make me some coffee", "intent": "iot_coffee"}
+{"sentence": "share in friends post", "intent": "social_post"}
+{"sentence": "i want to know about this song", "intent": "music_query"}
+{"sentence": "play youtube playlist blank", "intent": "play_music"}
+{"sentence": "best rap music", "intent": "play_music"}
+{"sentence": "please put all the lights", "intent": "iot_hue_lightup"}
+{"sentence": "check meeting schedule in todays mail", "intent": "email_query"}
+{"sentence": "let me know in two hours that i have to leave for my violin lesson that's at four pm at musicworkz", "intent": "calendar_set"}
+{"sentence": "what i am going to do today", "intent": "lists_query"}
+{"sentence": "reply email", "intent": "email_sendemail"}
+{"sentence": "i need to order some food from papa john's", "intent": "takeaway_order"}
+{"sentence": "please alert me a day before jeff's birthday", "intent": "calendar_set"}
+{"sentence": "when is the next train to glasgow from aberdeen", "intent": "transport_query"}
+{"sentence": "set an alert for two pm", "intent": "alarm_set"}
+{"sentence": "add a meeting to my calendar for nine am with tom", "intent": "calendar_set"}
+{"sentence": "play previous song", "intent": "play_music"}
+{"sentence": "write an email to my family saying i love you all", "intent": "email_sendemail"}
+{"sentence": "most viewed list", "intent": "lists_query"}
+{"sentence": "email jerry regarding the meeting", "intent": "email_sendemail"}
+{"sentence": "would you love to see", "intent": "iot_hue_lightchange"}
+{"sentence": "do i need umbrella for night", "intent": "weather_query"}
+{"sentence": "current weather", "intent": "weather_query"}
+{"sentence": "check most current emails", "intent": "email_query"}
+{"sentence": "did i receive any new emails from dan", "intent": "email_query"}
+{"sentence": "throw away my to do list please", "intent": "lists_remove"}
+{"sentence": "dorothy needs to talk to me about our divorce can you please set up a meeting as soon as i am available", "intent": "calendar_set"}
+{"sentence": "i want to hear purple haze", "intent": "play_music"}
+{"sentence": "what's was the upcoming event", "intent": "calendar_query"}
+{"sentence": "my set alarms", "intent": "alarm_query"}
+{"sentence": "what was the first movie of morgan freeman", "intent": "qa_factoid"}
+{"sentence": "house lights blue", "intent": "iot_hue_lightchange"}
+{"sentence": "next song", "intent": "play_music"}
+{"sentence": "i really enjoy this song", "intent": "music_likeness"}
+{"sentence": "open company name and find complaints", "intent": "social_post"}
+{"sentence": "can you increase the brightness in the room", "intent": "iot_hue_lightup"}
+{"sentence": "clear everything off my calendar for the rest of the year", "intent": "calendar_remove"}
+{"sentence": "start and email to john smith", "intent": "email_sendemail"}
+{"sentence": "how much is starbuck's stock these days", "intent": "qa_stock"}
+{"sentence": "play the song let it go", "intent": "play_music"}
+{"sentence": "find naty from my contacts and send her an email", "intent": "email_sendemail"}
+{"sentence": "could you please find me the latest news from a source that i do not usually go to", "intent": "news_query"}
+{"sentence": "what are the trending articles on the new york times", "intent": "news_query"}
+{"sentence": "make sure there is no events on my calendar", "intent": "calendar_remove"}
+{"sentence": "what is the hobby of ajay devgn", "intent": "qa_factoid"}
+{"sentence": "get rid of all my scheduled events", "intent": "calendar_remove"}
+{"sentence": "can you remove this item from the list", "intent": "lists_remove"}
+{"sentence": "how cold will it get each night this week", "intent": "weather_query"}
+{"sentence": "olly do i have any new emails", "intent": "email_query"}
+{"sentence": "alexa change the radio station", "intent": "play_radio"}
+{"sentence": "find information on today's stocks", "intent": "news_query"}
+{"sentence": "put my dinner at red lobster on the calendar for today at nine", "intent": "calendar_set"}
+{"sentence": "can you erase the haircut i have scheduled for friday", "intent": "calendar_remove"}
+{"sentence": "remind me to pick up mark at the airport at six pm", "intent": "calendar_set"}
+{"sentence": "resume born to run", "intent": "play_music"}
+{"sentence": "play creed from my rock playlist", "intent": "play_music"}
+{"sentence": "are there any new emails received after four o'clock today", "intent": "email_query"}
+{"sentence": "get rid of the list google", "intent": "lists_remove"}
+{"sentence": "play me a game of tic tac toe", "intent": "play_game"}
+{"sentence": "when does my alarm go off", "intent": "alarm_query"}
+{"sentence": "i want to hear any songs that got grammys this year", "intent": "play_music"}
+{"sentence": "tell me if taco bell delivers", "intent": "takeaway_query"}
+{"sentence": "define blanket", "intent": "qa_definition"}
+{"sentence": "please give me information about john abraham lincon", "intent": "qa_factoid"}
+{"sentence": "please tell me the latest news", "intent": "news_query"}
+{"sentence": "where is new zealand located on a map", "intent": "qa_factoid"}
+{"sentence": "lets send a tweet", "intent": "social_post"}
+{"sentence": "how hot is it in quebec", "intent": "weather_query"}
+{"sentence": "trash my list", "intent": "lists_remove"}
+{"sentence": "i need to make a list", "intent": "lists_createoradd"}
+{"sentence": "where are the rocky mountains", "intent": "qa_factoid"}
+{"sentence": "please add an email for john doe to my contacts johndoe@yahoo dot com", "intent": "email_addcontact"}
+{"sentence": "is there a connecting train from london to paris and what time", "intent": "transport_query"}
+{"sentence": "respond with", "intent": "email_sendemail"}
+{"sentence": "title of song", "intent": "music_query"}
+{"sentence": "what is the increase in stock value over the past week of disney", "intent": "qa_stock"}
+{"sentence": "delete calendar item", "intent": "calendar_remove"}
+{"sentence": "remove next monday's meeting", "intent": "calendar_remove"}
+{"sentence": "google save all the songs i have listened to more than once", "intent": "music_likeness"}
+{"sentence": "play a game with me", "intent": "play_game"}
+{"sentence": "what color are chairs", "intent": "qa_factoid"}
+{"sentence": "set a meeting between myself and john at two pm tomorrow", "intent": "calendar_set"}
+{"sentence": "did i leave the light on in the garage", "intent": "iot_hue_lightoff"}
+{"sentence": "how is it outside today", "intent": "weather_query"}
+{"sentence": "is the song by shakira", "intent": "music_query"}
+{"sentence": "i need to create a new to do list", "intent": "lists_createoradd"}
+{"sentence": "what's the answer to the universe", "intent": "qa_factoid"}
+{"sentence": "remove tonights dinner with shelly", "intent": "calendar_remove"}
+{"sentence": "cease operating lights", "intent": "iot_hue_lightoff"}
+{"sentence": "please send to new email address listed", "intent": "email_sendemail"}
+{"sentence": "did i leave myself any reminders", "intent": "calendar_query"}
+{"sentence": "please play some jazz music", "intent": "play_music"}
+{"sentence": "add red wine to my shopping list", "intent": "lists_createoradd"}
+{"sentence": "in which field does that person excel in", "intent": "qa_factoid"}
+{"sentence": "i want the light to be a little more red ish", "intent": "iot_hue_lightchange"}
+{"sentence": "play silent song", "intent": "play_music"}
+{"sentence": "answer to pawel's email", "intent": "email_sendemail"}
+{"sentence": "i have a nine am meeting on wednesday send me a reminder", "intent": "calendar_set"}
+{"sentence": "which is the highest peak in the world", "intent": "qa_factoid"}
+{"sentence": "play a nirvana playlist", "intent": "play_music"}
+{"sentence": "set feeling happy status on facebook", "intent": "social_post"}
+{"sentence": "check unread emails from amy", "intent": "email_query"}
+{"sentence": "can you play me a rap song on the radio", "intent": "play_radio"}
+{"sentence": "remove the latest alarm", "intent": "alarm_remove"}
+{"sentence": "i like senatra songs", "intent": "music_likeness"}
+{"sentence": "turn off all lights", "intent": "iot_hue_lightoff"}
+{"sentence": "turn down lights", "intent": "iot_hue_lightdim"}
+{"sentence": "give me my latest email", "intent": "email_query"}
+{"sentence": "find a description about a samsung tv", "intent": "qa_definition"}
+{"sentence": "post hey everyone on facebook", "intent": "social_post"}
+{"sentence": "the news from cbs alexa", "intent": "news_query"}
+{"sentence": "can i order take out from licari's", "intent": "takeaway_order"}
+{"sentence": "remove shopping list", "intent": "lists_remove"}
+{"sentence": "it is a sunny day today right", "intent": "weather_query"}
+{"sentence": "how is the weather in san francisco", "intent": "weather_query"}
+{"sentence": "latest news from the area", "intent": "news_query"}
+{"sentence": "i wish to know the weather in san fransico", "intent": "weather_query"}
+{"sentence": "ticket for bombay", "intent": "transport_ticket"}
+{"sentence": "please check the weather in kansas", "intent": "weather_query"}
+{"sentence": "any breaking news from the huffington post", "intent": "news_query"}
+{"sentence": "i just got an email from bill i need to answer it right now", "intent": "email_sendemail"}
+{"sentence": "the definition of life", "intent": "qa_definition"}
+{"sentence": "how many new emails have i received today", "intent": "email_query"}
+{"sentence": "when does the super bowl officially start", "intent": "qa_factoid"}
+{"sentence": "olly get me the popular news from bbc", "intent": "news_query"}
+{"sentence": "make a grocery list please", "intent": "lists_createoradd"}
+{"sentence": "should i take a sweater or a coat to work today", "intent": "weather_query"}
+{"sentence": "play the most popular song by given artist", "intent": "play_music"}
+{"sentence": "olly give me some dim light", "intent": "iot_hue_lightdim"}
+{"sentence": "if there is event of show then remove it", "intent": "lists_remove"}
+{"sentence": "text an email to donna hey what are you doing today", "intent": "email_sendemail"}
+{"sentence": "how would you describe a happy birthday", "intent": "qa_definition"}
+{"sentence": "get me a person asap", "intent": "social_post"}
+{"sentence": "send me a reminder of my meeting with tom next friday", "intent": "calendar_set"}
+{"sentence": "please set a notification on twenty third october about meeting with my colleague", "intent": "calendar_set"}
+{"sentence": "please check the trending topics on twitter", "intent": "social_query"}
+{"sentence": "tell me about city traffic", "intent": "transport_traffic"}
+{"sentence": "give me the list of available train tickets from edinburgh to leeds", "intent": "transport_query"}
+{"sentence": "check definition of capricious", "intent": "qa_definition"}
+{"sentence": "cancel next meeting", "intent": "calendar_remove"}
+{"sentence": "power on wemo", "intent": "iot_wemo_on"}
+{"sentence": "music third day", "intent": "play_music"}
+{"sentence": "can you delete the next event", "intent": "calendar_remove"}
+{"sentence": "turn the living room's light off", "intent": "iot_hue_lightoff"}
+{"sentence": "do i have a meeting on saturday march twenty fifth", "intent": "calendar_query"}
+{"sentence": "hey olly play the radio", "intent": "play_radio"}
+{"sentence": "hey reply a mail which i received", "intent": "email_sendemail"}
+{"sentence": "please list all my alarms", "intent": "alarm_query"}
+{"sentence": "tell me today's direction", "intent": "transport_query"}
+{"sentence": "remove the alarm for tomorrow", "intent": "alarm_remove"}
+{"sentence": "play songs by barenaked ladies", "intent": "play_music"}
+{"sentence": "remind me to move so there is no weight gain", "intent": "calendar_set"}
+{"sentence": "what's new in the news", "intent": "news_query"}
+{"sentence": "what's this week's weather", "intent": "weather_query"}
+{"sentence": "please change the light colors to red", "intent": "iot_hue_lightchange"}
+{"sentence": "change the station to eighty two point four", "intent": "play_radio"}
+{"sentence": "mention event in calendar with others", "intent": "calendar_set"}
+{"sentence": "is dinner ready yet", "intent": "takeaway_query"}
+{"sentence": "what alarms are set", "intent": "alarm_query"}
+{"sentence": "compose an email to bob", "intent": "email_sendemail"}
+{"sentence": "for how many years was abraham lincoln president of united states", "intent": "qa_factoid"}
+{"sentence": "what are the latest news headlines", "intent": "news_query"}
+{"sentence": "book me a train ticket", "intent": "transport_ticket"}
+{"sentence": "show bbc news of migration", "intent": "news_query"}
+{"sentence": "what groups are listed in my contacts", "intent": "lists_query"}
+{"sentence": "clear my calendar for saturday", "intent": "calendar_remove"}
+{"sentence": "play songs by the band the beatles", "intent": "play_music"}
+{"sentence": "can you turn on the radio", "intent": "play_radio"}
+{"sentence": "have i gotten any new email", "intent": "email_query"}
+{"sentence": "remove the list", "intent": "lists_remove"}
+{"sentence": "play the last doctor who radio broadcast", "intent": "play_radio"}
+{"sentence": "please set the brightness of lightness appropriately in kitchen", "intent": "iot_hue_lightup"}
+{"sentence": "check new emails", "intent": "email_query"}
+{"sentence": "is it going to be sunny next tuesday", "intent": "weather_query"}
+{"sentence": "get city cab here to airport", "intent": "transport_taxi"}
+{"sentence": "olly i need to hear some sad songs today", "intent": "play_music"}
+{"sentence": "find funny jokes", "intent": "general_joke"}
+{"sentence": "will you put on the music", "intent": "play_music"}
+{"sentence": "is angeline having a new movie this year", "intent": "qa_factoid"}
+{"sentence": "let's play global thermonuclear war", "intent": "play_game"}
+{"sentence": "it's my mother's birthday today send me a notification every year on this date", "intent": "calendar_set"}
+{"sentence": "i can't see turn up the lights", "intent": "iot_hue_lightup"}
+{"sentence": "where is my meeting at nine am", "intent": "calendar_query"}
+{"sentence": "what's the weather next wednesday", "intent": "weather_query"}
+{"sentence": "olly check my email", "intent": "email_query"}
+{"sentence": "open pandora", "intent": "play_radio"}
+{"sentence": "tell me when obama was born", "intent": "qa_factoid"}
+{"sentence": "stop start the juice", "intent": "iot_wemo_on"}
+{"sentence": "may i have a list of five star hotels in paris", "intent": "qa_factoid"}
+{"sentence": "calendar event send invite bill malinda", "intent": "calendar_set"}
+{"sentence": "i want to thank everyone for the birthday wishes", "intent": "social_post"}
+{"sentence": "how big is the empire state building", "intent": "qa_factoid"}
+{"sentence": "remind me after ten minutes", "intent": "calendar_set"}
+{"sentence": "clear my activities list for today", "intent": "lists_remove"}
+{"sentence": "is my alarm set", "intent": "alarm_query"}
+{"sentence": "add shopping to my calendar for tomorrow", "intent": "calendar_set"}
+{"sentence": "play bilando", "intent": "play_music"}
+{"sentence": "shut off the socket", "intent": "iot_wemo_off"}
+{"sentence": "current weather forecast", "intent": "weather_query"}
+{"sentence": "what is the location of moldova", "intent": "qa_factoid"}
+{"sentence": "please play a song by bruno mars", "intent": "play_music"}
+{"sentence": "begin vacuuming", "intent": "iot_cleaning"}
+{"sentence": "how far away is the sun", "intent": "qa_factoid"}
+{"sentence": "are there any alarms currently set", "intent": "alarm_query"}
+{"sentence": "alexa give me the headline news", "intent": "news_query"}
+{"sentence": "wedding wishes", "intent": "social_post"}
+{"sentence": "is there any upcoming events", "intent": "calendar_query"}
+{"sentence": "retrieve the light for me", "intent": "iot_hue_lightup"}
+{"sentence": "tweet that product sucks", "intent": "social_post"}
+{"sentence": "i'd like to listen to hear a music of dance and country", "intent": "play_music"}
+{"sentence": "my vacuum cleaner should start between ten to eleven am everyday", "intent": "iot_cleaning"}
+{"sentence": "dim the lights in the living room", "intent": "iot_hue_lightdim"}
+{"sentence": "open a reminder about next weeks managers meeting on tuesday", "intent": "calendar_set"}
+{"sentence": "what is the least tornado prone state in the entire us", "intent": "qa_factoid"}
+{"sentence": "play my station", "intent": "play_radio"}
+{"sentence": "turn on an alarm for three thirty pm today", "intent": "alarm_set"}
+{"sentence": "turn on wemo", "intent": "iot_wemo_on"}
+{"sentence": "please turn off the light of my son's room", "intent": "iot_hue_lightoff"}
+{"sentence": "start pandora", "intent": "play_radio"}
+{"sentence": "what about new mail", "intent": "email_query"}
+{"sentence": "should i take my raincoat with me now", "intent": "weather_query"}
+{"sentence": "new event", "intent": "calendar_set"}
+{"sentence": "play slayer", "intent": "play_music"}
+{"sentence": "set a birthday event for martin", "intent": "calendar_set"}
+{"sentence": "ok google play one hundred and six point seven", "intent": "play_radio"}
+{"sentence": "remove the first alarm", "intent": "alarm_remove"}
+{"sentence": "start a competitive crossword for us", "intent": "play_game"}
+{"sentence": "play my favorite song from last year", "intent": "play_music"}
+{"sentence": "whats the weather now", "intent": "weather_query"}
+{"sentence": "please sent this email to my friend", "intent": "email_sendemail"}
+{"sentence": "hey what is the weather like today", "intent": "weather_query"}
+{"sentence": "email alice to let her know we are on the way", "intent": "email_sendemail"}
+{"sentence": "remove succeeding event", "intent": "calendar_remove"}
+{"sentence": "play game", "intent": "play_game"}
+{"sentence": "change the bedroom lights to green", "intent": "iot_hue_lightchange"}
+{"sentence": "please ring the wake up alarm at eight am next saturday", "intent": "alarm_set"}
+{"sentence": "spell and define oscillate", "intent": "qa_definition"}
+{"sentence": "start a game and play with me", "intent": "play_game"}
+{"sentence": "what is the deepest point on earth", "intent": "qa_factoid"}
+{"sentence": "exhibition two thousand and seventeen mass on mar twenty five make a note of it on the corresponding date", "intent": "calendar_set"}
+{"sentence": "hey do i have any new emails", "intent": "email_query"}
+{"sentence": "open parcheese game for you and i", "intent": "play_game"}
+{"sentence": "look up the map to stores near me", "intent": "transport_query"}
+{"sentence": "how is the weather", "intent": "weather_query"}
+{"sentence": "could you explain the meaning of exorbitant for me please", "intent": "qa_definition"}
+{"sentence": "do you know any jokes", "intent": "general_joke"}
+{"sentence": "change the lights to blue olly", "intent": "iot_hue_lightchange"}
+{"sentence": "book train best deal", "intent": "transport_ticket"}
+{"sentence": "what is the definition of logic", "intent": "qa_definition"}
+{"sentence": "put that song in my favourite list", "intent": "music_likeness"}
+{"sentence": "any special events on my list", "intent": "lists_query"}
+{"sentence": "add this new email with contact", "intent": "email_addcontact"}
+{"sentence": "can i please have the weather for tomorrow here in costa mesa", "intent": "weather_query"}
+{"sentence": "remind me the meeting with allen on fifteenth march", "intent": "calendar_set"}
+{"sentence": "give details of rock sand", "intent": "qa_definition"}
+{"sentence": "olly i need a drink", "intent": "iot_coffee"}
+{"sentence": "i would like to hear aretha franklin's call me after this song", "intent": "play_music"}
+{"sentence": "create an email for my co worker with my recently saved documents", "intent": "email_sendemail"}
+{"sentence": "alexa play a mi song of rap and rock one after the other", "intent": "play_music"}
+{"sentence": "please set my alarm for five pm", "intent": "alarm_set"}
+{"sentence": "i would need to be notified of church services on sundays at eleven am", "intent": "calendar_set"}
+{"sentence": "olly what is the weather forecast for today", "intent": "weather_query"}
+{"sentence": "start robot vacuum cleaner", "intent": "iot_cleaning"}
+{"sentence": "i want a meeting till three o clock", "intent": "calendar_set"}
+{"sentence": "can you write an email to chelsea", "intent": "email_sendemail"}
+{"sentence": "will there any events downtown this weekend", "intent": "calendar_query"}
+{"sentence": "please give me information on michael jackson", "intent": "qa_factoid"}
+{"sentence": "play random music", "intent": "play_music"}
+{"sentence": "what's been happening for the last two months", "intent": "news_query"}
+{"sentence": "tell comcast i hate them", "intent": "social_post"}
+{"sentence": "two thumbs down at company name", "intent": "social_post"}
+{"sentence": "how many states have the death penalty", "intent": "qa_factoid"}
+{"sentence": "what is the capitol of west virginia", "intent": "qa_factoid"}
+{"sentence": "i need you to mark next monday", "intent": "calendar_set"}
+{"sentence": "i need a ride home", "intent": "transport_taxi"}
+{"sentence": "clear my next activity", "intent": "calendar_remove"}
+{"sentence": "list current set alarms", "intent": "alarm_query"}
+{"sentence": "please schedule a meeting with this person", "intent": "calendar_set"}
+{"sentence": "create a new list", "intent": "lists_createoradd"}
+{"sentence": "hows the food order going", "intent": "takeaway_query"}
+{"sentence": "did i tell you to remind me something", "intent": "calendar_query"}
+{"sentence": "show geographic details of pyramids", "intent": "qa_factoid"}
+{"sentence": "what time does the train arrive in sacramento", "intent": "transport_query"}
+{"sentence": "how is the weather where i am", "intent": "weather_query"}
+{"sentence": "what do i have planned for this week", "intent": "calendar_query"}
+{"sentence": "will it be rainy tomorrow", "intent": "weather_query"}
+{"sentence": "how its come to us", "intent": "email_sendemail"}
+{"sentence": "hey do you have home delivery", "intent": "takeaway_query"}
+{"sentence": "create a playlist", "intent": "lists_createoradd"}
+{"sentence": "tell me the weather in barcelona in two days from now", "intent": "weather_query"}
+{"sentence": "can you book an uber tomorrow", "intent": "transport_taxi"}
+{"sentence": "video games", "intent": "play_game"}
+{"sentence": "play the weekend", "intent": "play_music"}
+{"sentence": "submit a negative review about a company", "intent": "social_post"}
+{"sentence": "i need you to get me up at six am", "intent": "alarm_set"}
+{"sentence": "get todays climate forecast here", "intent": "weather_query"}
