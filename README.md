@@ -1,165 +1,160 @@
-# Resource-Aware Conditional Cascaded (RACC-SLM) Framework for Zero-Shot Intent Detection in Real-Time Voice Streams
+# Resource-Aware Conditional Cascaded (RACC-SLM) Framework
+## Zero-Shot Intent Detection via Semantic Mapping on Edge Architectures
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper Status](https://img.shields.io/badge/Paper-Under%20Review-orange)](https://link.springer.com/journal/607)
+![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue)
+![License MIT](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Research%20Prototype-orange)
 
-> **Official Repository for the manuscript submitted to Springer - Computing.**
+### Overview
 
-This repository implements a **Resource-Aware Conditional Cascaded Framework** for real-time Spoken Language Understanding (SLU) on edge devices. Unlike cloud-centric approaches, this system leverages **Small Language Models (SLMs)** and a hierarchical pruning strategy to achieve sub-50ms inference latency without requiring task-specific training data.
+This repository hosts the implementation and experimental validation of the **Resource-Aware Conditional Cascaded (RACC-SLM)** framework. This research addresses the fundamental trade-off between semantic understanding and computational efficiency in real-time Spoken Language Understanding (SLU).
 
----
-
-## 📖 Table of Contents
-- [Project Overview](#-project-overview)
-- [Key Features & Novelty](#-key-features--novelty)
-- [System Architecture](#-system-architecture)
-- [Repository Structure](#-repository-structure)
-- [Installation & Setup](#-installation--setup)
-- [Usage](#-usage)
-- [Detailed Documentation](#-detailed-documentation)
-- [Citation](#-citation)
+By utilizing **Semantic Mapping protocols**—transforming abstract schema labels into descriptive natural language definitions—this system enables robust Zero-Shot classification using Small Language Models (SLMs) such as `nli-MiniLM2-L6-H768`. The architecture is optimized for edge-native deployment, achieving sub-second latency without dependency on cloud-based Large Language Models (LLMs).
 
 ---
 
-## 🔭 Project Overview
+### Key Technical Contributions
 
-Real-time intent detection in smart environments often faces a trade-off between accuracy (Cloud LLMs) and privacy/latency (Edge devices). This project bridges that gap by orchestrating a pipeline that combines:
-1.  **Acoustic Gating:** Lightweight VAD to filter noise and silence.
-2.  **Efficient Transcription:** Distilled Speech-to-Text models (`faster-distil-whisper`).
-3.  **Zero-Shot Inference:** Entailment-based SLMs (`nli-MiniLM2`) using a hierarchical search.
+1.  **Semantic Mapping Protocol:**
+    Implements a methodology that translates raw dataset tags (e.g., `iot_hue_lighton`) into natural language definitions (e.g., *"Turn on the lights"*). This aligns user utterances with the pre-trained Natural Language Inference (NLI) manifold, improving Zero-Shot F1-scores by **~38%** over baselines.
 
-The system is designed to run on constrained hardware (e.g., IoT Hubs, Raspberry Pi) while maintaining robust performance in multi-user environments.
+2.  **Edge-Cloud Latency Optimization:**
+    Demonstrates that local SLM inference (236ms) significantly outperforms cloud-based API calls (~1.2s latency due to network RTT and SSL overhead) while maintaining high semantic robustness (80% Top-5 Accuracy on CLINC150).
 
----
+3.  **Hierarchical & Flat Classification Strategies:**
+    Includes implementations for both Hierarchical (Coarse-to-Fine) and Optimized Flat classification architectures to handle large-scale ontologies (up to 150 classes).
 
-## 🚀 Key Features & Novelty
-
-### 1. Resource-Aware Conditional Cascade
-Instead of a linear pipeline, the system employs an **Early-Exit Strategy**. Heavy computation (ASR/NLU) is only triggered when acoustic gating conditions (VAD + SNR check) are met, significantly reducing energy consumption.
-
-### 2. Edge-Native Zero-Shot Classification
-We utilize **`nli-MiniLM2-L6-H768`**, a 66M parameter Small Language Model (SLM). This allows for:
-*   **Privacy:** No audio or text leaves the device.
-*   **Adaptability:** New intents can be added simply by updating the configuration, without model retraining.
-
-### 3. Hierarchical Intent Pruning
-To optimize inference speed, we replace standard $O(N)$ linear search with a **Coarse-to-Fine** approach:
-*   **Level 1:** Broad Domain Classification (e.g., *Home Automation* vs. *Media*).
-*   **Level 2/3:** Specific Intent Sub-graph activation.
-*   *Result:* ~80% reduction in classification FLOPs per inference.
+4.  **Microservice Architecture:**
+    Deploys the intent engine as an isolated FastAPI microservice, decoupling the NLU logic from audio capture subsystems for modular scalability.
 
 ---
 
-## 🏗 System Architecture
+### Repository Structure
 
-The workflow follows the **Conditional Cascaded Framework** described in the manuscript:
-
-1.  **Input Stream:** Real-time audio capture via `PyAudio`.
-2.  **Stage 1: Acoustic Gating:** 
-    *   **VAD:** `Silero VAD` isolates speech segments.
-    *   **Preprocessing:** Gain control and noise suppression ensure signal clarity.
-3.  **Stage 2: Transcription:**
-    *   **Engine:** `Faster-Whisper` (Distilled Medium/Small).
-    *   **Metric:** Computes average log-probability for confidence estimation.
-4.  **Stage 3: Hierarchical Inference:**
-    *   **Encoder:** `Cross-Encoder` utilizing `nli-MiniLM2`.
-    *   **Logic:** Hierarchical pruning calculates semantic entailment between the transcript and candidate labels.
-
----
-
-## 📂 Repository Structure
-
-This repository is organized to facilitate reproducibility and code review:
+The directory structure is organized into datasets, preprocessing utilities, core source code, and experimental validation scripts.
 
 ```text
-├── models/                  # Directory for storing downloaded model weights
-├── utils.py                 # Helper functions for logging and formatted output
-├── config.py                # Configuration: thresholds, model paths, intent hierarchy
-├── speech_recognizer.py     # Core ASR module (VAD + Faster-Whisper + Buffering)
-├── intent_classifier.py     # NLU module (Zero-Shot Hierarchical Logic)
-├── main.py                  # Orchestrator: Initializes system and runs the loop
-├── requirements.txt         # Python dependencies
+INTENT_CLASSIFICATION/
+├── datasets/                        # Benchmark datasets (Raw and Processed)
+│   ├── clinic_data.json             # CLINC150 (OOS) Dataset (150 classes)
+│   ├── snips_train.csv              # SNIPS Dataset (7 classes)
+│   ├── slurp_data.jsonl             # Original SLURP Dataset
+│   ├── slurp_final_clean.jsonl      # Curated/Cleaned SLURP subset
+│   └── ... (Intermediate data files)
 │
-├── docs/
-│   ├── Average_Log_Probabilty_Calculation.md  # Math behind ASR confidence
-│   ├── Hierarchical_Intent_Classification.md  # Explanation of the pruning logic
-│   └── WorkFlow_Explanation.md                # End-to-end system data flow
+├── models/                          # Local storage for Transformer weights
 │
-└── README.md                # Project documentation
+├── pre_proc_tools/                  # Data Engineering & Inspection Tools
+│   ├── analyze_slurp.py             # Schema extraction for SLURP
+│   ├── cleanup_slurp.py             # Noise reduction and outlier removal
+│   ├── clinic_diagnosis.py          # Confusion matrix analysis for CLINC150
+│   ├── inspect_clinic.py            # Structure analysis for OOS data
+│   └── ... (Dataset generation scripts)
+│
+├── src/
+│   └── core.py                      # Core engine logic and class definitions
+│
+├── test/                            # Experimental Validation Suites
+│   ├── clinic_experiment.py         # Full 150-class Zero-Shot evaluation
+│   ├── edge_tradeoff_experiment.py  # CPU/GPU Latency benchmarking
+│   ├── hierarchical_experiment.py   # Multi-stage inference tests
+│   ├── natural_language_exp.py      # Semantic Map validation
+│   ├── snips_experiment.py          # Control group validation
+│   └── ... (Ablation studies)
+│
+├── intent_classifier.py             # Main inference entry point
+├── listener.py                      # Audio capture and VAD orchestration
+└── requirements.txt                 # Project dependencies
 ```
 
 ---
 
-## 📚 Detailed Documentation
+### System Architecture
 
-To support cross-validation of our methodology, we provide three focused documentation files:
+The framework operates on a conditional execution pipeline designed to minimize resource usage on constrained hardware:
 
-*   **[WorkFlow_Explanation.md](docs/WorkFlow_Explanation.md)**: A comprehensive guide to the system's architecture, data flow, and module interactions.
-*   **[Hierarchical_Intent_Classification.md](docs/Hierarchical_Intent_Classification.md)**: Details the Coarse-to-Fine reasoning process and how the Zero-Shot NLI model scales to new intents.
-*   **[Average_Log_Probabilty_Calculation.md](docs/Average_Log_Probabilty_Calculation.md)**: Explains the mathematical basis for the confidence metrics used in the gating mechanism.
+1.  **Input Processing:** Audio is captured and transcribed via a distilled ASR model.
+2.  **Semantic Projection:** The transcribed text is paired with a dynamic list of candidate definitions based on the active domain context.
+3.  **Cross-Encoder Inference:** The `nli-MiniLM2-L6` model computes entailment scores between the user query and the semantic definitions.
+4.  **Decision Logic:**
+    *   **Exact Match (Top-1):** High-confidence immediate execution.
+    *   **Intent Retrieval (Top-3):** Fallback for disambiguation or clarification loops.
 
 ---
 
-## ⚙️ Installation & Setup
+### Performance Benchmarks
 
-### Prerequisites
-*   Python 3.8 or higher
-*   PortAudio (for microphone access)
+#### 1. Zero-Shot Accuracy (CLINC150 Dataset)
+*Evaluation on 150 distinct intents with no training data.*
 
-### Step 1: Clone the Repository
+| Metric | Result | Interpretation |
+| :--- | :--- | :--- |
+| **Exact Match Accuracy (Top-1)** | **57.63%** | Precise identification of the single correct label. |
+| **Broad Recognition (Top-5)** | **79.80%** | Successful retrieval of the correct semantic neighborhood. |
+| **Weighted Precision** | **0.6985** | High reliability in confident predictions. |
+
+#### 2. Latency Profile (Edge vs. Cloud)
+*Comparative analysis on single-thread CPU hardware vs. standard API benchmarks.*
+
+| Architecture | Model | Inference Latency | Network Overhead | Total Time |
+| :--- | :--- | :--- | :--- | :--- |
+| **Proposed (Local)** | MiniLM-L6 | **236 ms** | **0 ms** | **~236 ms** |
+| **Cloud Baseline** | GPT-4o-mini | ~400 ms | ~800 ms | ~1,200 ms |
+
+*Result:* The proposed local architecture offers a **5x speedup** in total interaction time compared to cloud-dependent solutions.
+
+---
+
+### Installation and Setup
+
+**Prerequisites:**
+*   Python 3.10 or higher
+*   PyTorch (CUDA recommended for lower latency, CPU supported)
+
+**1. Clone the Repository:**
 ```bash
-git clone https://github.com/your-username/edge-native-intent-detection.git
-cd edge-native-intent-detection
+git clone <repository_url>
+cd INTENT_CLASSIFICATION
 ```
 
-### Step 2: Install Dependencies
+**2. Initialize Virtual Environment:**
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate   # Windows
+```
+
+**3. Install Dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
-*Key libraries: `torch`, `faster-whisper`, `transformers`, `pyaudio`, `numpy`, `silero-vad`.*
-
-### Step 3: Model Setup
-The system will automatically download the required models (`faster-distil-whisper` and `nli-MiniLM2`) on the first run. Ensure you have an active internet connection for the initial setup.
 
 ---
 
-## 🖥 Usage
+### Usage
 
-To start the real-time intent detection system:
+#### Running the Intent Recognition Microservice
+To start the FastAPI service that handles semantic classification:
 
 ```bash
-python main.py
+python intent_classifier.py
 ```
+*The service will expose a REST endpoint at `http://localhost:8005/understand_intent`.*
 
-### Operational Loop:
-1.  **Calibration:** The system measures ambient noise levels to set VAD thresholds.
-2.  **Listening:** Waits for speech input (Passive Mode).
-3.  **Processing:** Upon speech detection, it transcribes and classifies intent (Active Mode).
-4.  **Output:** Results are printed to the console with timestamps and confidence scores.
+#### Reproducing Experiments
+To replicate the benchmarks presented in the manuscript, run the scripts located in the `test/` directory:
 
-**Configuration:**
-Modify `config.py` to adjust:
-*   `VAD_THRESHOLD`: Sensitivity of speech detection.
-*   `INTENT_HIERARCHY`: Add or remove intents to test zero-shot adaptability.
+*   **For Latency Benchmarking:**
+    ```bash
+    python test/edge_tradeoff_experiment.py
+    ```
+*   **For CLINC150 Zero-Shot Evaluation:**
+    ```bash
+    python test/clinic_experiment_quick.py
+    ```
 
 ---
 
-## 📄 Citation
+### Contact
 
-If you use this code or methodology in your research, please cite the associated manuscript:
-
-```bibtex
-@article{YourName2025EdgeNative,
-  title={Beyond Large Models: Effective Zero-Shot Intent Detection with SLMs for Real-Time Edge Applications},
-  author={Your Name and Co-Authors},
-  journal={Springer Computing},
-  year={2025},
-  note={Under Review}
-}
-```
-
----
-
-**Contact:** [Your Name] | [Your Email]
-
+For inquiries regarding the architecture or experimental data, please refer to the corresponding author details in the associated manuscript.
