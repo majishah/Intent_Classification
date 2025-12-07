@@ -1,6 +1,0 @@
-Step 1:Type  CMD in project files folder
-Step 2:Type av in command prompt
-Step 3: Type python main.py
-Step 4: Open new terminal in same project folder and type npm run tauri dev
-Step 5: Start executing ....UI will display
-
